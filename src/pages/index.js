@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Section, Text, Strong, Icon, LinkBox, Hr, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Section, Text, Strong, Span, LinkBox, Icon, Hr, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, SocialMedia } from "@quarkly/components";
@@ -269,6 +269,780 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
+		<Section padding="80px 0 80px 0">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				width="33%"
+				padding="15px 15px 15px 15px"
+				align-items="center"
+				display="flex"
+				justify-content="center"
+				flex-direction="column"
+				lg-width="50%"
+				sm-width="100%"
+			>
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
+					70+
+				</Text>
+				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
+					Client
+				</Text>
+			</Box>
+			<Box
+				width="33%"
+				padding="15px 15px 15px 15px"
+				display="flex"
+				align-items="center"
+				justify-content="center"
+				flex-direction="column"
+				lg-width="50%"
+				sm-width="100%"
+			>
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
+					210
+				</Text>
+				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
+					Hours event
+				</Text>
+			</Box>
+			<Box
+				width="33%"
+				padding="15px 15px 15px 15px"
+				display="flex"
+				align-items="center"
+				justify-content="center"
+				flex-direction="column"
+				lg-width="50%"
+				sm-width="100%"
+			>
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
+					2
+				</Text>
+				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
+					Years experience
+				</Text>
+			</Box>
+		</Section>
+		<Section padding="90px 0 100px 0" quarkly-title="Reviews-3">
+			<Text
+				margin="0px 0px 20px 0px"
+				font="normal 500 20px/1.5 --fontFamily-sansHelvetica"
+				color="--indigo"
+				lg-margin="0px 0px 20px 0px"
+				text-align="center"
+			>
+				Testimonials
+			</Text>
+			<Text margin="0px 0px 70px 0px" font="--headline2" text-align="center" md-margin="0px 0px 50px 0px">
+				<Span
+					font-weight="normal"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					<Strong>
+						What customers say about us
+					</Strong>
+				</Span>
+			</Text>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="grid"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-template-rows="repeat(3, 1fr)"
+				lg-grid-template-columns="repeat(2, 1fr)"
+				grid-gap="36px 30px"
+				justify-content="center"
+				lg-grid-template-rows="auto"
+				sm-grid-template-columns="1fr"
+				sm-grid-gap="30px"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 30px 30px 30px"
+					background="#f3f3f7"
+					border-radius="8px"
+					box-shadow="--m"
+					margin="0px 0 0px 0px"
+					display="flex"
+					flex-direction="column"
+					justify-content="space-between"
+					lg-margin="0px 0 0 0px"
+					sm-padding="20px 15px 20px 15px"
+					md-padding="20px 20px 20px 20px"
+				>
+					<Box min-width="100px" min-height="100px">
+						<Text margin="0px 0px 28px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1" md-margin="0px 0px 18px 0px">
+							I left feeling energized and inspired to take action in my career. The speakers were top-notch and the sessions were thought-provoking.
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						align-items="center"
+						md-min-width={0}
+						md-min-height={0}
+					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/13q.jpg?v=2023-04-18T18:57:20.417Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
+						<Box min-width="10px" min-height="10px">
+							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
+								Adam Luis
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@adamluis
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 30px 30px 30px"
+					background="#f3f3f7"
+					border-radius="8px"
+					box-shadow="--m"
+					margin="0px 0 0px 0px"
+					display="flex"
+					flex-direction="column"
+					justify-content="space-between"
+					lg-margin="0px 0 0 0px"
+					sm-padding="20px 15px 20px 15px"
+					md-padding="20px 20px 20px 20px"
+				>
+					<Box min-width="100px" min-height="100px">
+						<Text margin="0px 0px 28px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1" md-margin="0px 0px 18px 0px">
+							The roundtable discussion on diversity and inclusion was eye-opening and gave me tangible strategies to implement in my workplace.
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						align-items="center"
+						md-min-width={0}
+						md-min-height={0}
+					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/14q.jpg?v=2023-04-17T21:07:08.834Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
+						<Box min-width="10px" min-height="10px">
+							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
+								Melisa Williams
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@melisawilliams
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 30px 30px 30px"
+					background="#f3f3f7"
+					border-radius="8px"
+					box-shadow="--m"
+					margin="0px 0 0px 0px"
+					display="flex"
+					flex-direction="column"
+					justify-content="space-between"
+					lg-margin="0px 0 0 0px"
+					sm-padding="20px 15px 20px 15px"
+					md-padding="20px 20px 20px 20px"
+				>
+					<Box min-width="100px" min-height="100px">
+						<Text margin="0px 0px 28px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1" md-margin="0px 0px 18px 0px">
+							The workshop on personal branding helped me clarify my professional goals and gave me the tools to effectively communicate my value to others.
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						align-items="center"
+						md-min-width={0}
+						md-min-height={0}
+					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/16q.jpg?v=2023-04-18T18:57:30.439Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
+						<Box min-width="10px" min-height="10px">
+							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
+								Jane Adams
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@janeadams
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 30px 30px 30px"
+					background="#f3f3f7"
+					border-radius="8px"
+					box-shadow="--m"
+					margin="0px 0 0px 0px"
+					display="flex"
+					flex-direction="column"
+					justify-content="space-between"
+					lg-margin="0px 0 0 0px"
+					sm-padding="20px 15px 20px 15px"
+					md-padding="20px 20px 20px 20px"
+				>
+					<Box min-width="100px" min-height="100px">
+						<Text margin="0px 0px 28px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1" md-margin="0px 0px 18px 0px">
+							Attending this conference was one of the best decisions I've made for my career. The networking opportunities were invaluable and I made some great connections that have led to new opportunities.
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						align-items="center"
+						md-min-width={0}
+						md-min-height={0}
+					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/5q.jpg?v=2023-04-17T21:12:16.116Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
+						<Box min-width="10px" min-height="10px">
+							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
+								Michael Lee
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@michaellee
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 30px 30px 30px"
+					background="#f3f3f7"
+					border-radius="8px"
+					box-shadow="--m"
+					margin="0px 0 0px 0px"
+					display="flex"
+					flex-direction="column"
+					justify-content="space-between"
+					lg-margin="0px 0 0 0px"
+					sm-padding="20px 15px 20px 15px"
+					md-padding="20px 20px 20px 20px"
+				>
+					<Box min-width="100px" min-height="100px">
+						<Text margin="0px 0px 28px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1" md-margin="0px 0px 18px 0px">
+							I appreciated the diversity of speakers and topics covered at the conference. It was refreshing to hear from voices outside of my industry and gain new perspectives.
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						align-items="center"
+						md-min-width={0}
+						md-min-height={0}
+					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/3q.jpg?v=2023-04-17T22:37:36.273Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
+						<Box min-width="10px" min-height="10px">
+							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
+								Tom Paul
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@tompaul
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 30px 30px 30px"
+					background="#f3f3f7"
+					border-radius="8px"
+					box-shadow="--m"
+					margin="0px 0 0px 0px"
+					display="flex"
+					flex-direction="column"
+					justify-content="space-between"
+					lg-margin="0px 0 0 0px"
+					sm-padding="20px 15px 20px 15px"
+					md-padding="20px 20px 20px 20px"
+				>
+					<Box min-width="100px" min-height="100px">
+						<Text margin="0px 0px 28px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1" md-margin="0px 0px 18px 0px">
+							The organizers did a fantastic job of creating a welcoming and inclusive environment. As an introvert, I often feel uncomfortable at networking events, but I felt at ease and able to connect with others at this conference.
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						align-items="center"
+						md-min-width={0}
+						md-min-height={0}
+					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/10q.jpg?v=2023-04-17T21:12:01.188Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
+						<Box min-width="10px" min-height="10px">
+							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
+								Maria Davidson
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@mariadavid
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 30px 30px 30px"
+					background="#f3f3f7"
+					border-radius="8px"
+					box-shadow="--m"
+					margin="0px 0 0px 0px"
+					display="flex"
+					flex-direction="column"
+					justify-content="space-between"
+					lg-margin="0px 0 0 0px"
+					sm-padding="20px 15px 20px 15px"
+					md-padding="20px 20px 20px 20px"
+				>
+					<Box min-width="100px" min-height="100px">
+						<Text margin="0px 0px 28px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1" md-margin="0px 0px 18px 0px">
+							The workshops and sessions were incredibly informative and gave me practical skills that I could immediately apply to my job. I left feeling more confident and capable in my role.
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						align-items="center"
+						md-min-width={0}
+						md-min-height={0}
+					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/9q.jpg?v=2023-04-18T18:57:05.682Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
+						<Box min-width="10px" min-height="10px">
+							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
+								Carlos Odis
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@carlosodis
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 30px 30px 30px"
+					background="#f3f3f7"
+					border-radius="8px"
+					box-shadow="--m"
+					margin="0px 0 0px 0px"
+					display="flex"
+					flex-direction="column"
+					justify-content="space-between"
+					lg-margin="0px 0 0 0px"
+					sm-padding="20px 15px 20px 15px"
+					md-padding="20px 20px 20px 20px"
+				>
+					<Box min-width="100px" min-height="100px">
+						<Text margin="0px 0px 28px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1" md-margin="0px 0px 18px 0px">
+							The keynote speakers were truly inspiring and gave me a new sense of motivation and drive in my career. I feel reenergized and excited about my future possibilities.
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						align-items="center"
+						md-min-width={0}
+						md-min-height={0}
+					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/6q.jpg?v=2023-04-18T18:56:44.939Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
+						<Box min-width="10px" min-height="10px">
+							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
+								Sarah Cook
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@sarahcook
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 30px 30px 30px"
+					background="#f3f3f7"
+					border-radius="8px"
+					box-shadow="--m"
+					margin="0px 0 0px 0px"
+					display="flex"
+					flex-direction="column"
+					justify-content="space-between"
+					lg-margin="0px 0 0 0px"
+					sm-padding="20px 15px 20px 15px"
+					md-padding="20px 20px 20px 20px"
+				>
+					<Box min-width="100px" min-height="100px">
+						<Text margin="0px 0px 28px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1" md-margin="0px 0px 18px 0px">
+							I was impressed by the level of organization and attention to detail at the conference. Everything ran smoothly and I felt well taken care of as an attendee.
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						align-items="center"
+						md-min-width={0}
+						md-min-height={0}
+					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/2q.jpg?v=2023-04-17T20:54:40.886Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
+						<Box min-width="10px" min-height="10px">
+							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
+								Leslie Alexander
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@lesliealexander
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Section padding="80px 0 80px 0" lg-padding="56px 0 56px 0" sm-padding="32px 0 32px 0" background="--color-indigo">
+			<Box
+				margin="0px 0px 32px 0px"
+				md-margin="0px 0px 40px 0px"
+				lg-margin="0px 0px 33px 0px"
+				display="flex"
+				flex-direction="column"
+				align-items="center"
+				lg-padding="15px 15px 15px 15px"
+				sm-margin="0px 0px 10px 0px"
+				justify-content="center"
+			>
+				<Text
+					font="--headline2"
+					color="--light"
+					text-align="center"
+					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					margin="16px 0px 0px 0px"
+				>
+					Event
+				</Text>
+				<Text
+					font="--lead"
+					color="--light"
+					text-align="center"
+					md-width="100%"
+					max-width="600px"
+				>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+				</Text>
+			</Box>
+			<LinkBox
+				display="flex"
+				md-flex-direction="column"
+				md-align-items="center"
+				md-justify-content="center"
+				flex-wrap="wrap"
+				width="100%"
+				margin="0px 0px 16px 0px"
+				justify-content="flex-start"
+				md-margin="0px 0px 16px 0px"
+			>
+				<Box
+					width="100%"
+					align-items="flex-start"
+					display="flex"
+					justify-content="flex-start"
+					md-width="100%"
+					lg-width="100%"
+				>
+					<Image
+						src="https://images.unsplash.com/photo-1599360889420-da1afaba9edc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1220&q=80"
+						border-radius="24px"
+						max-width="100%"
+						max-height="522px"
+						width="100%"
+						object-fit="cover"
+						lg-max-height="392px"
+						object-position="0% 30%"
+						sm-max-height="213px"
+					/>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					align-items="flex-start"
+					justify-content="flex-start"
+					md-border-width="0px"
+					flex-direction="column"
+					padding="16px 12px 16px 12px"
+				>
+					<Text font="--headline3" color="--light" margin="0px 0px 8px 0px">
+						Wedding Party
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--light">
+						Lorem ipsum dolor sit amet, consectetur
+					</Text>
+				</Box>
+			</LinkBox>
+			<LinkBox
+				display="flex"
+				md-flex-direction="column"
+				md-align-items="center"
+				md-justify-content="center"
+				flex-wrap="wrap"
+				width="100%"
+				margin="0px 0px 16px 0px"
+				justify-content="flex-start"
+				md-margin="0px 0px 16px 0px"
+			>
+				<Box
+					width="100%"
+					align-items="flex-start"
+					display="flex"
+					justify-content="flex-start"
+					md-width="100%"
+					lg-width="100%"
+				>
+					<Image
+						src="https://images.unsplash.com/photo-1548094990-c16ca90f1f0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1220&q=80"
+						border-radius="24px"
+						max-width="100%"
+						max-height="522px"
+						width="100%"
+						object-fit="cover"
+						lg-max-height="392px"
+						object-position="0% 30%"
+						sm-max-height="213px"
+					/>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					align-items="flex-start"
+					justify-content="flex-start"
+					md-border-width="0px"
+					flex-direction="column"
+					padding="16px 12px 16px 12px"
+				>
+					<Text font="--headline2" color="--light" margin="0px 0px 8px 0px">
+						<Span
+							font-weight="normal"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+							font="--headline3"
+						>
+							Corporate Event
+						</Span>
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--light">
+						Lorem ipsum dolor sit amet, consectetur
+					</Text>
+				</Box>
+			</LinkBox>
+			<LinkBox
+				display="flex"
+				md-flex-direction="column"
+				md-align-items="center"
+				md-justify-content="center"
+				flex-wrap="wrap"
+				width="100%"
+				margin="0px 0px 16px 0px"
+				justify-content="flex-start"
+				md-margin="0px 0px 16px 0px"
+			>
+				<Box
+					width="100%"
+					align-items="flex-start"
+					display="flex"
+					justify-content="flex-start"
+					md-width="100%"
+					lg-width="100%"
+				>
+					<Image
+						src="https://images.unsplash.com/photo-1548094990-c16ca90f1f0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1220&q=80"
+						border-radius="24px"
+						max-width="100%"
+						max-height="522px"
+						width="100%"
+						object-fit="cover"
+						lg-max-height="392px"
+						object-position="0% 30%"
+						sm-max-height="213px"
+					/>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					align-items="flex-start"
+					justify-content="flex-start"
+					md-border-width="0px"
+					flex-direction="column"
+					padding="16px 12px 16px 12px"
+				>
+					<Text font="--headline3" color="--light" margin="0px 0px 8px 0px">
+						<Span
+							font-weight="normal"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							Birthday Party
+						</Span>
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--light">
+						Lorem ipsum dolor sit amet, consectetur
+					</Text>
+				</Box>
+			</LinkBox>
+		</Section>
 		<Section padding="160px 0 24px 0" sm-padding="80px 0 24px 0" md-padding="50px 0 24px 0">
 			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" />
 			<Box
@@ -311,17 +1085,7 @@ export default (() => {
 				flex-direction="column"
 				align-items="flex-start"
 			>
-				<Box display="flex" margin="0px 0px 20px 0px" align-items="center" sm-width="100%">
-					<Text
-						margin="0px 0px 0px 0px"
-						color="--primary"
-						font="--lead"
-						lg-font="normal 500 16px/1.6 &quot;Inter&quot;, sans-serif"
-						md-font="normal 500 14px/1.6 &quot;Inter&quot;, sans-serif"
-					>
-						Choose your right package
-					</Text>
-				</Box>
+				<Box display="flex" margin="0px 0px 20px 0px" align-items="center" sm-width="100%" />
 				<Text
 					width="85%"
 					lg-width="100%"
@@ -391,9 +1155,6 @@ export default (() => {
 				padding="16px 16px 16px 16px"
 				lg-width="50%"
 			>
-				<Text color="--primary" lg-font="normal 500 16px/1.6 &quot;Inter&quot;, sans-serif" margin="0px 0px 0px 0px" font="--lead">
-					Personalized photobooth
-				</Text>
 				<Text
 					lg-font="600 22px/1.3 &quot;Inter&quot;, sans-serif"
 					position="relative"
@@ -408,7 +1169,6 @@ export default (() => {
 				<Text margin="20px 0px 10px 0px" color="--dark" font="--base" opacity=".9">
 					Consult with us to enhance your  event to the next level with personalized theme{" "}
 				</Text>
-				<Image height="48px" src="https://uploads.quarkly.io/6123949e957019001e284458/images/akar-icons_arrow-right.svg?v=2021-09-22T00:57:24.639Z" width="48px" />
 			</Box>
 			<Box
 				empty-min-height="64px"
@@ -590,210 +1350,50 @@ export default (() => {
 					</Text>
 				</LinkBox>
 			</Box>
-		</Section>
-		<Section padding="60px 0 100px 0" md-padding="60px 0 60px 0">
-			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				justify-content="center"
-				align-items="flex-start"
-				flex-direction="column"
-				width="100%"
-				empty-min-width="64px"
 				empty-min-height="64px"
 				empty-border-width="1px"
-				display="flex"
+				empty-border-color="LightGray"
+				empty-min-width="64px"
+				empty-border-style="solid"
+				padding="16px 16px 16px 16px"
+				width="33.333%"
+				md-width="100%"
+				sm-width="100%"
+				lg-width="50%"
 			>
-				<Text
-					margin="0px 0px 38px 0px"
-					font="--headline2"
-					color="--indigo"
-					md-font="normal 700 20px/1.2 &quot;Inter&quot;, sans-serif"
-					lg-font="normal 700 34px/1.2 &quot;Inter&quot;, sans-serif"
-					text-align="left"
-				>
-					Latest User Reviews
-				</Text>
-				<Hr
-					border-style="solid"
-					margin="0px 0px 0px 0px"
-					height="0px"
-					lg-display="none"
-					width="100%"
+				<LinkBox
 					border-color="rgba(66, 82, 207, 0.1)"
-					border-width="2px 0 0 0"
-				/>
-			</Box>
-			<Box
-				flex-direction="column"
-				justify-content="flex-start"
-				border-width="0px 1px 0px 0px"
-				md-padding="32px 16px 16px 16px"
-				width="25%"
-				max-height="265px"
-				display="flex"
-				align-items="center"
-				sm-justify-content="flex-start"
-				lg-justify-content="flex-start"
-				md-align-items="center"
-				border-color="rgba(66, 82, 207, 0.1)"
-				height="100%"
-				md-width="50%"
-				sm-margin="0px 0px 30px 0px"
-				border-style="solid"
-				lg-padding="32px 16px 16px 16px"
-				lg-min-height="298px"
-				md-justify-content="flex-start"
-				sm-padding="32px 16px 16px 16px"
-				margin="0px 0px 0px 0px"
-				padding="16px 32px 16px 16px"
-			>
-				<Image
-					object-fit="cover"
-					border-radius="50%"
-					object-position="0% 0%"
-					width="80px"
-					height="80px"
-					margin="0px 0px 8px 0px"
-					src="https://images.unsplash.com/photo-1594194610831-c3f92ec62180?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=228&q=80"
-				/>
-				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center">
-					John B.
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					I like the app! The doctors are very helpful and friendly. I've saved a lot on the trip and hospital bills.
-				</Text>
-			</Box>
-			<Box
-				padding="16px 32px 16px 32px"
-				border-width="0px 1px 0px 1px"
-				width="25%"
-				md-align-items="center"
-				align-items="center"
-				flex-direction="column"
-				border-style="solid"
-				border-color="rgba(66, 82, 207, 0.1)"
-				lg-padding="32px 16px 16px 16px"
-				lg-min-height="298px"
-				md-border-width="0px 0px 0px 1px"
-				md-justify-content="flex-start"
-				sm-justify-content="flex-start"
-				md-padding="32px 16px 16px 16px"
-				max-height="265px"
-				display="flex"
-				justify-content="flex-start"
-				margin="0px 0px 0px 0px"
-				sm-margin="0px 0px 30px 0px"
-				height="100%"
-				lg-justify-content="flex-start"
-				sm-padding="32px 16px 16px 16px"
-				md-width="50%"
-			>
-				<Image
-					object-position="0% 0%"
-					width="80px"
-					height="80px"
-					margin="0px 0px 8px 0px"
-					src="https://images.unsplash.com/photo-1552452518-f921c926b76b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=272&q=80"
-					object-fit="cover"
-					border-radius="50%"
-				/>
-				<Text font="--lead" color="--indigo" sm-text-align="center" margin="0px 0px 8px 0px">
-					Bob W.
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					I got professional help and my prescription quite fast. The app is awesome. The doctors are real pros!
-				</Text>
-			</Box>
-			<Hr
-				display="none"
-				width="100%"
-				border-color="rgba(66, 82, 207, 0.1)"
-				border-style="solid"
-				margin="0px 16px 32px 16px"
-				md-margin="16px 16px 16px 16px"
-				md-display="block"
-				border-width="2px 0 0 0"
-				height="0px"
-			/>
-			<Box
-				border-color="rgba(66, 82, 207, 0.1)"
-				md-justify-content="flex-start"
-				sm-margin="0px 0px 30px 0px"
-				padding="16px 32px 16px 32px"
-				border-style="solid"
-				lg-padding="32px 16px 16px 16px"
-				sm-padding="32px 16px 16px 16px"
-				border-width="0px 1px 0px 1px"
-				lg-min-height="298px"
-				md-border-width="0px 1px 0px 0px"
-				display="flex"
-				align-items="center"
-				flex-direction="column"
-				justify-content="flex-start"
-				margin="0px 0px 0px 0px"
-				height="100%"
-				width="25%"
-				md-width="50%"
-				lg-justify-content="flex-start"
-				md-align-items="center"
-				sm-justify-content="flex-start"
-				md-padding="32px 16px 16px 16px"
-				max-height="265px"
-			>
-				<Image
-					src="https://images.unsplash.com/photo-1563306406-e66174fa3787?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=274&q=80"
-					object-fit="cover"
-					border-radius="50%"
-					width="80px"
-					height="80px"
-					margin="0px 0px 8px 0px"
-				/>
-				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center">
-					Natalie J.
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					One of the best medical apps I've ever come across! Highly recommend to everyone.
-				</Text>
-			</Box>
-			<Box
-				align-items="center"
-				padding="16px 32px 16px 32px"
-				border-width="0px 0px 0px 1px"
-				lg-padding="32px 16px 16px 16px"
-				lg-min-height="298px"
-				height="100%"
-				md-align-items="center"
-				width="25%"
-				max-height="265px"
-				md-width="50%"
-				margin="0px 0px 0px 0px"
-				border-color="rgba(66, 82, 207, 0.1)"
-				lg-justify-content="flex-start"
-				sm-padding="32px 16px 16px 16px"
-				display="flex"
-				sm-justify-content="flex-start"
-				flex-direction="column"
-				sm-margin="0px 0px 30px 0px"
-				border-style="solid"
-				md-justify-content="flex-start"
-				md-padding="32px 16px 16px 16px"
-			>
-				<Image
-					width="80px"
-					height="80px"
-					margin="0px 0px 8px 0px"
-					src="https://images.unsplash.com/photo-1604004555489-723a93d6ce74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
-					object-fit="cover"
-					border-radius="50%"
-				/>
-				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center">
-					Laura H.
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					I got my meds so fast. Thank you a lot! You are a lifesaver.
-				</Text>
+					lg-height="100%"
+					overflow-x="hidden"
+					overflow-y="hidden"
+					height="100%"
+					width="100%"
+					flex-direction="column"
+					border-style="solid"
+					border-width="2px"
+					border-radius="10px"
+					padding="32px 32px 32px 32px"
+					display="flex"
+					justify-content="flex-end"
+					md-min-height="200px"
+					lg-min-height="350px"
+					align-items="flex-start"
+				>
+					<Icon
+						font="48px sans-serif"
+						category="io"
+						icon={IoIosPeople}
+						size="48px"
+						color="--indigo"
+					/>
+					<Text color="--indigo" font="--lead" margin="32px 0px 8px 0px">
+						Background Included
+					</Text>
+					<Text color="--dark" font="--textBase" margin="0px 0px 0px 0px">
+						Get high-quality remote care powered by doctors and data.
+					</Text>
+				</LinkBox>
 			</Box>
 		</Section>
 		<Section lg-padding="60px 0 40px 0" padding="60px 0 100px 0" md-padding="30px 0 30px 0">
@@ -805,8 +1405,9 @@ export default (() => {
 				color="--indigo"
 				lg-font="normal 700 34px/1.2 &quot;Inter&quot;, sans-serif"
 				md-font="normal 700 20px/1.2 &quot;Inter&quot;, sans-serif"
+				text-align="center"
 			>
-				Introduce The 360 Videobooth
+				Our Services
 			</Text>
 			<Box
 				margin="0px 0px 20px 0px"
@@ -848,13 +1449,15 @@ export default (() => {
 					align-self="center"
 				>
 					<LinkBox
-						bottom="auto"
+						bottom="-34px"
 						lg-right="16px"
 						lg-top="49px"
 						position="absolute"
-						right="32px"
-						top="32px"
-						left="auto"
+						right="auto"
+						top="auto"
+						left="56px"
+						height="48px"
+						width="48px"
 					>
 						<Image
 							width="48px"
@@ -911,14 +1514,28 @@ export default (() => {
 					md-width="100%"
 					align-self="center"
 				>
+					<Text
+						margin="0px 0px 8px 0px"
+						font="--headline4"
+						color="--indigo"
+						width="85%"
+						lg-font="600 22px/1.3 &quot;Inter&quot;, sans-serif"
+					>
+						Instant sharing
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1">
+						Over 200 doctors are available to provide you with comprehensive care online at any time. Get help with managing chronic illnesses to achieve lifestyle objectives and optimize your pharmaceutical regimen.
+					</Text>
 					<LinkBox
 						lg-right="16px"
 						lg-top="49px"
 						position="absolute"
-						right="32px"
-						top="32px"
-						left="auto"
-						bottom="auto"
+						right="auto"
+						top="auto"
+						left="58px"
+						bottom="-31px"
+						height="48px"
+						width="48px"
 					>
 						<Image
 							src="https://uploads.quarkly.io/6123949e957019001e284458/images/akar-icons_arrow-right.svg?v=2021-09-22T00:57:24.639Z"
@@ -933,18 +1550,6 @@ export default (() => {
 							right="32px"
 						/>
 					</LinkBox>
-					<Text
-						margin="0px 0px 8px 0px"
-						font="--headline4"
-						color="--indigo"
-						width="85%"
-						lg-font="600 22px/1.3 &quot;Inter&quot;, sans-serif"
-					>
-						Instant sharing
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1">
-						Over 200 doctors are available to provide you with comprehensive care online at any time. Get help with managing chronic illnesses to achieve lifestyle objectives and optimize your pharmaceutical regimen.
-					</Text>
 				</Box>
 				<Box
 					md-order="-1"
@@ -1001,14 +1606,28 @@ export default (() => {
 					justify-content="space-between"
 					align-self="center"
 				>
+					<Text
+						margin="0px 0px 8px 0px"
+						font="--headline4"
+						color="--indigo"
+						width="100%"
+						lg-font="600 22px/1.3 &quot;Inter&quot;, sans-serif"
+					>
+						Personalized to match with your event
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" width="100%">
+						We are constantly getting better and more affordable. Our technology can keep prices low because our care teams are more concentrated on you rather than paperwork or billing. Plus we got rid of copays and hidden fees.
+					</Text>
 					<LinkBox
 						position="absolute"
-						right="32px"
-						top="32px"
-						bottom="auto"
-						left="auto"
+						right="auto"
+						top="auto"
+						bottom="-32px"
+						left="58px"
 						lg-right="16px"
 						lg-top="49px"
+						height="48px"
+						width="48px"
 					>
 						<Image
 							lg-width="24px"
@@ -1023,18 +1642,6 @@ export default (() => {
 							position="static"
 						/>
 					</LinkBox>
-					<Text
-						margin="0px 0px 8px 0px"
-						font="--headline4"
-						color="--indigo"
-						width="85%"
-						lg-font="600 22px/1.3 &quot;Inter&quot;, sans-serif"
-					>
-						Personalized to match with your event
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1">
-						We are constantly getting better and more affordable. Our technology can keep prices low because our care teams are more concentrated on you rather than paperwork or billing. Plus we got rid of copays and hidden fees.
-					</Text>
 				</Box>
 			</Box>
 		</Section>
@@ -1323,7 +1930,7 @@ export default (() => {
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
 				<Box padding="16px 16px 16px 16px" width="33.333%" md-width="100%" align-self="center">
 					<Box display="flex" flex-direction="column">
-						<Text as="h2" font="--headline4" margin="0 0 8px 0" color="--indigo">
+						<Text as="h2" font="--headline2" margin="0 0 8px 0" color="--indigo">
 							FAQs
 						</Text>
 						<Text as="p" font="--lead" margin="0" color="--greyD2">
@@ -1342,7 +1949,7 @@ export default (() => {
 						>
 							<Box display="flex" flex-direction="column">
 								<Text as="h3" font="--lead" margin="12px 0">
-									<Strong>
+									<Strong font="--headline4">
 										Is there life on Mars?
 									</Strong>
 								</Text>
@@ -1360,7 +1967,7 @@ export default (() => {
 						>
 							<Box display="flex" flex-direction="column">
 								<Text as="h3" font="--lead" margin="12px 0">
-									<Strong>
+									<Strong font="--headline4">
 										Why is the sky blue?
 									</Strong>
 								</Text>
@@ -1378,7 +1985,7 @@ export default (() => {
 						>
 							<Box display="flex" flex-direction="column">
 								<Text as="h3" font="--lead" margin="12px 0">
-									<Strong>
+									<Strong font="--headline4">
 										When will we get there?
 									</Strong>
 								</Text>
@@ -1396,7 +2003,7 @@ export default (() => {
 						>
 							<Box display="flex" flex-direction="column">
 								<Text as="h3" font="--lead" margin="12px 0">
-									<Strong>
+									<Strong font="--headline4">
 										How much salt is in the ocean?
 									</Strong>
 								</Text>
