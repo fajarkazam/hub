@@ -137,7 +137,15 @@ export default (() => {
 				</Components.QuarklycommunityKitMobileSidePanel>
 			</Box>
 		</Section>
-		<Section background="linear-gradient(264.47deg,#a21ba9 29.39%,#000848 93.49%)" padding="36px 0 0 0" quarkly-title="HeroBlock" md-padding="36px 0 60px 0">
+		<Section
+			background="linear-gradient(264.47deg,#a21ba9 29.39%,#000848 93.49%)"
+			padding="36px 0 0 0"
+			quarkly-title="HeroBlock"
+			md-padding="36px 0 60px 0"
+			flex-direction="column"
+			sm-height="680px"
+			sm-padding="36px 0 0 0"
+		>
 			<Override
 				slot="SectionContent"
 				flex-direction="row"
@@ -145,6 +153,7 @@ export default (() => {
 				z-index="9"
 				md-flex-wrap="wrap"
 				md-z-index="7"
+				sm-flex-direction="column"
 			/>
 			<Box
 				empty-min-width="64px"
@@ -161,6 +170,7 @@ export default (() => {
 				width="100%"
 				padding="0px 0 0px 0px"
 				md-padding="0px 0px 0px 0px"
+				sm-margin="0px 0px 25px 0px"
 			>
 				<Text
 					lg-font="normal 400 14px/1.5 &quot;Inter&quot;, sans-serif"
@@ -171,10 +181,12 @@ export default (() => {
 					text-transform="uppercase"
 					lg-margin="0px 0px 8px 0px"
 					sm-font="normal 500 16px/1.6 &quot;Inter&quot;, sans-serif"
+					sm-align-self="center"
+					sm-text-align="center"
 				>
 					photobooth & videobooth service
 				</Text>
-				<Components.QuarklycommunityKitLoopText slides="Videobooth,Photobooth">
+				<Components.QuarklycommunityKitLoopText slides="Videobooth,Photobooth" sm-font="700 50px/0.2 Inter, sans-serif" sm-align-self="center" sm-text-align="center">
 					<Override slot="Before Text" color="--light">
 						The Best
 					</Override>
@@ -191,8 +203,9 @@ export default (() => {
 					color="--white"
 					opacity="1"
 					text-align="center"
+					sm-text-align="center"
 				>
-					Take your event to the next level with our Photobooth and 360 Videobooth experience. Transport your guests to a whole new dimension as they capture immersive moments from every angle.{" "}
+					Elevate your event using the newest technology of 360 videobooth and selfie photobooth
 				</Text>
 				<Box
 					lg-margin="32px 0px 0px 0px"
@@ -200,6 +213,9 @@ export default (() => {
 					md-margin="36px 0px 0px 0px"
 					display="flex"
 					margin="72px 0px 0px 0px"
+					sm-align-self="center"
+					sm-text-align="center"
+					sm-justify-content="center"
 				>
 					<Link
 						sm-margin="0px 22px 0px 0px"
@@ -226,69 +242,25 @@ export default (() => {
 						border-width="2px"
 						border-style="solid"
 						border-color="--color-primary"
+						sm-align-self="center"
 					>
 						<Strong>
 							Book Now
 						</Strong>
 					</Link>
 				</Box>
-				<Box
-					empty-border-style="solid"
-					width="50%"
-					display="flex"
-					justify-content="flex-end"
-					empty-border-width="1px"
-					empty-min-height="64px"
-					empty-border-color="LightGray"
-					align-items="center"
-					md-width="100%"
-					md-order="-1"
-					empty-min-width="64px"
-				>
-					<Image
-						lg-max-height="400px"
-						width="100%"
-						max-height="450px"
-						md-margin="0px 0px 30px 0px"
-						src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/808-8084160_people-in-photo-booth-removebg-preview.png?v=2023-06-16T06:06:06.541Z"
-						lg-position="relative"
-						lg-left="-5px"
-						max-width="100%"
-					/>
-				</Box>
 			</Box>
-		</Section>
-		<Section padding="90px 0 120px 0" quarkly-title="Partners-2">
-			<Text margin="0px 0px 20px 0px" text-align="center" font="--headline2" color="--indigo">
-				Clients and partners
-			</Text>
-			<Text
-				margin="0px 0px 70px 0px"
-				text-align="center"
-				font="normal 400 20px/1.5 --fontFamily-sansHelvetica"
-				color="#606469"
-				sm-margin="0px 0px 50px 0px"
-			>
-				Partnerships can help companies expand their reach, increase revenue, and access new markets.
-			</Text>
-			<Box
-				min-width="100px"
-				min-height="100px"
-				display="grid"
-				grid-template-columns="repeat(6, 1fr)"
-				grid-gap="0 54px"
+			<Image
+				lg-max-height="400px"
+				width="100%"
+				max-height="450px"
+				md-margin="0px 0px 30px 0px"
+				src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/808-8084160_people-in-photo-booth-removebg-preview.png?v=2023-06-16T06:06:06.541Z"
+				lg-position="relative"
+				lg-left="-5px"
 				max-width="100%"
-				align-items="center"
-				width="60%"
-				lg-grid-template-columns="repeat(3, 1fr)"
-				lg-grid-gap="36px 72px"
-				sm-grid-template-columns="repeat(2, 1fr)"
-				align-self="center"
-			>
-				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/logo-dslrbooth-blue.png?v=2023-06-08T06:19:44.976Z" display="block" width="250px" height="150px" />
-				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/DNP-logo-270E6265A5-seeklogo.com.png?v=2023-06-08T06:18:50.976Z" display="block" width="125px" height="150px" />
-				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/microsoft-surface-logo-088B989CFA-seeklogo.com.png?v=2023-06-08T06:18:18.663Z" display="block" width="150px" height="150px" />
-			</Box>
+				sm-margin="0px 0px 0 0px"
+			/>
 		</Section>
 		<Section padding="90px 0 100px 0" quarkly-title="Reviews-3">
 			<Text
@@ -297,10 +269,20 @@ export default (() => {
 				color="--indigo"
 				lg-margin="0px 0px 20px 0px"
 				text-align="center"
+				sm-text-align="left"
+				sm-margin="0px 0px 0 0px"
 			>
 				Testimonials
 			</Text>
-			<Text margin="0px 0px 70px 0px" font="--headline2" text-align="center" md-margin="0px 0px 50px 0px">
+			<Text
+				margin="0px 0px 70px 0px"
+				font="--headline2"
+				text-align="center"
+				md-margin="0px 0px 50px 0px"
+				sm-align-self="flex-start"
+				sm-text-align="left"
+				sm-font="normal 700 40px/1 &quot;Inter&quot;, sans-serif"
+			>
 				<Span
 					font-weight="normal"
 					overflow-wrap="normal"
@@ -311,8 +293,9 @@ export default (() => {
 					hyphens="manual"
 					user-select="auto"
 					pointer-events="auto"
+					sm-font="40px/0.6 Inter, sans-serif"
 				>
-					<Strong>
+					<Strong sm-font="700 36px/0.5 Inter, sans-serif" sm-text-align="left">
 						What customers say about us
 					</Strong>
 				</Span>
@@ -826,24 +809,32 @@ export default (() => {
 				lg-padding="15px 15px 15px 15px"
 				sm-margin="0px 0px 10px 0px"
 				justify-content="center"
+				sm-padding="15px 0 15px 0"
 			>
-				<Text
-					font="--headline2"
-					color="--light"
-					text-align="center"
-					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-					margin="16px 0px 0px 0px"
-				>
-					Event
-				</Text>
 				<Text
 					font="--lead"
 					color="--light"
 					text-align="center"
 					md-width="100%"
 					max-width="600px"
+					sm-text-align="left"
+					sm-font="normal 500 20px/1.2 --fontFamily-sansHelvetica"
+					sm-margin="16px 0px 0 0px"
 				>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					Event
+				</Text>
+				<Text
+					font="--headline2"
+					color="--light"
+					text-align="center"
+					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					margin="16px 0px 0px 0px"
+					sm-align-self="flex-start"
+					sm-font="normal 700 36px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-margin="0 0px 40px 0px"
+					sm-text-align="left"
+				>
+					What event do we serve{" "}
 				</Text>
 			</Box>
 			<LinkBox
@@ -885,11 +876,18 @@ export default (() => {
 					md-border-width="0px"
 					flex-direction="column"
 					padding="16px 12px 16px 12px"
+					sm-padding="16px 0 16px 0"
 				>
-					<Text font="--headline3" color="--light" margin="0px 0px 8px 0px">
+					<Text
+						font="--headline3"
+						color="--light"
+						margin="0px 0px 8px 0px"
+						sm-align-self="flex-start"
+						sm-font="normal 400 28px/1.2 &quot;Inter&quot;, sans-serif"
+					>
 						Wedding Party
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="--base" color="--light">
+					<Text margin="0px 0px 0px 0px" font="--base" color="--light" sm-font="--base">
 						Lorem ipsum dolor sit amet, consectetur
 					</Text>
 				</Box>
@@ -933,6 +931,7 @@ export default (() => {
 					md-border-width="0px"
 					flex-direction="column"
 					padding="16px 12px 16px 12px"
+					sm-padding="0 0 16px 0"
 				>
 					<Text font="--headline2" color="--light" margin="0px 0px 8px 0px">
 						<Span
@@ -946,6 +945,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 							font="--headline3"
+							sm-font="normal 400 28px/1.2 &quot;Inter&quot;, sans-serif"
 						>
 							Corporate Event
 						</Span>
@@ -994,6 +994,7 @@ export default (() => {
 					md-border-width="0px"
 					flex-direction="column"
 					padding="16px 12px 16px 12px"
+					sm-padding="0 0 16px 0"
 				>
 					<Text font="--headline3" color="--light" margin="0px 0px 8px 0px">
 						<Span
@@ -1006,6 +1007,7 @@ export default (() => {
 							hyphens="manual"
 							user-select="auto"
 							pointer-events="auto"
+							sm-font="28px/58.8px Inter, sans-serif"
 						>
 							Birthday Party
 						</Span>
@@ -1031,6 +1033,7 @@ export default (() => {
 				justify-content="space-between"
 				empty-min-height="64px"
 				empty-border-width="1px"
+				sm-padding="16px 0 16px 0"
 			>
 				<Image
 					position="static"
@@ -1057,8 +1060,22 @@ export default (() => {
 				empty-border-color="LightGray"
 				flex-direction="column"
 				align-items="flex-start"
+				sm-padding="16px 0 16px 0"
 			>
 				<Box display="flex" margin="0px 0px 20px 0px" align-items="center" sm-width="100%" />
+				<Text
+					font="--lead"
+					color="--light"
+					text-align="center"
+					md-width="100%"
+					max-width="600px"
+					sm-text-align="left"
+					sm-font="normal 500 20px/1.2 --fontFamily-sansHelvetica"
+					sm-margin="16px 0px 0 0px"
+					sm-color="--indigo"
+				>
+					Package
+				</Text>
 				<Text
 					width="85%"
 					lg-width="100%"
@@ -1067,7 +1084,7 @@ export default (() => {
 					margin="0px 0px 16px 0px"
 					font="--headline2"
 					color="--indigo"
-					sm-font="normal 800 30px/1.2 &quot;Inter&quot;, sans-serif"
+					sm-font="normal 800 36px/1.2 &quot;Inter&quot;, sans-serif"
 				>
 					Complete Personalized Package
 				</Text>
@@ -1078,6 +1095,8 @@ export default (() => {
 					md-font="normal 400 14px/1.5 &quot;Inter&quot;, sans-serif"
 					margin="0px 0px 25px 0px"
 					color="--dark"
+					sm-font="--base"
+					sm-color="--dark"
 				>
 					Choose the right package that match with your event
 				</Text>
@@ -1112,12 +1131,38 @@ export default (() => {
 		</Section>
 		<Section md-padding="60px 0 60px 0" padding="84px 0 60px 0" sm-padding="60px 0 60px 0" quarkly-title="Feature">
 			<Override slot="SectionContent" flex-wrap="wrap" flex-direction="row" />
+			<Text
+				font="--lead"
+				color="--light"
+				text-align="center"
+				md-width="100%"
+				max-width="600px"
+				sm-text-align="left"
+				sm-font="normal 500 20px/1.2 --fontFamily-sansHelvetica"
+				sm-margin="16px 0px 0 0px"
+				sm-color="--indigo"
+			>
+				Features
+			</Text>
+			<Text
+				width="85%"
+				lg-width="100%"
+				lg-font="normal 700 34px/1.2 &quot;Inter&quot;, sans-serif"
+				md-font="normal 700 24px/1.2 &quot;Inter&quot;, sans-serif"
+				margin="0px 0px 16px 0px"
+				font="--headline2"
+				color="--indigo"
+				sm-font="normal 800 36px/1.2 &quot;Inter&quot;, sans-serif"
+				sm-margin="0px 0px 0 0px"
+			>
+				What you will get
+			</Text>
 			<Box
 				border-radius="10px"
 				flex-direction="column"
 				width="33.333%"
 				md-padding="0px 0px 0px 0px"
-				sm-padding="16px 16px 16px 16px"
+				sm-padding="0 0 16px 0"
 				display="flex"
 				align-items="flex-start"
 				justify-content="flex-start"
@@ -1128,17 +1173,6 @@ export default (() => {
 				padding="16px 16px 16px 16px"
 				lg-width="50%"
 			>
-				<Text
-					lg-font="600 22px/1.3 &quot;Inter&quot;, sans-serif"
-					position="relative"
-					z-index="1"
-					color="--indigo"
-					font="--headline4"
-					margin="15px 0px 0px 0px"
-					sm-font="700 25px/1.3 &quot;Inter&quot;, sans-serif"
-				>
-					Best in Class Services
-				</Text>
 				<Text margin="20px 0px 10px 0px" color="--dark" font="--base" opacity=".9">
 					Consult with us to enhance your  event to the next level with personalized theme{" "}
 				</Text>
@@ -1154,6 +1188,7 @@ export default (() => {
 				md-width="100%"
 				sm-width="100%"
 				lg-width="50%"
+				sm-padding="16px 0 16px 0"
 			>
 				<LinkBox
 					border-color="rgba(66, 82, 207, 0.1)"
@@ -1199,6 +1234,7 @@ export default (() => {
 				md-width="100%"
 				sm-width="100%"
 				lg-width="50%"
+				sm-padding="16px 0 16px 0"
 			>
 				<LinkBox
 					border-color="rgba(66, 82, 207, 0.1)"
@@ -1244,6 +1280,7 @@ export default (() => {
 				md-width="100%"
 				sm-width="100%"
 				lg-width="50%"
+				sm-padding="16px 0 16px 0"
 			>
 				<LinkBox
 					border-color="rgba(66, 82, 207, 0.1)"
@@ -1289,6 +1326,7 @@ export default (() => {
 				md-width="100%"
 				sm-width="100%"
 				lg-width="50%"
+				sm-padding="16px 0 16px 0"
 			>
 				<LinkBox
 					border-color="rgba(66, 82, 207, 0.1)"
@@ -1334,6 +1372,7 @@ export default (() => {
 				md-width="100%"
 				sm-width="100%"
 				lg-width="50%"
+				sm-padding="16px 0 16px 0"
 			>
 				<LinkBox
 					border-color="rgba(66, 82, 207, 0.1)"
@@ -1371,6 +1410,19 @@ export default (() => {
 		</Section>
 		<Section lg-padding="60px 0 40px 0" padding="60px 0 100px 0" md-padding="30px 0 30px 0" quarkly-title="Service">
 			<Text
+				font="--lead"
+				color="--light"
+				text-align="center"
+				md-width="100%"
+				max-width="600px"
+				sm-text-align="left"
+				sm-font="normal 500 20px/1.2 --fontFamily-sansHelvetica"
+				sm-margin="16px 0px 0 0px"
+				sm-color="--indigo"
+			>
+				Services
+			</Text>
+			<Text
 				md-margin="0px 0px 40px 0px"
 				lg-margin="0px 0px 40px 0px"
 				margin="0px 0px 80px 0px"
@@ -1379,8 +1431,10 @@ export default (() => {
 				lg-font="normal 700 34px/1.2 &quot;Inter&quot;, sans-serif"
 				md-font="normal 700 20px/1.2 &quot;Inter&quot;, sans-serif"
 				text-align="center"
+				sm-font="normal 700 40px/1.2 &quot;Inter&quot;, sans-serif"
+				sm-text-align="left"
 			>
-				Our Services
+				What service you can choose
 			</Text>
 			<Box
 				margin="0px 0px 20px 0px"
@@ -1421,42 +1475,47 @@ export default (() => {
 					lg-width="50%"
 					align-self="center"
 				>
-					<LinkBox
-						bottom="-34px"
-						lg-right="16px"
-						lg-top="49px"
-						position="absolute"
-						right="auto"
-						top="auto"
-						left="56px"
-						height="48px"
-						width="48px"
-					>
-						<Image
-							width="48px"
-							height="48px"
-							top="32px"
-							left="auto"
-							lg-height="24px"
-							src="https://uploads.quarkly.io/6123949e957019001e284458/images/akar-icons_arrow-right.svg?v=2021-09-22T00:57:24.639Z"
-							position="static"
-							right="32px"
-							bottom="auto"
-							lg-width="24px"
-						/>
-					</LinkBox>
 					<Text
 						color="--indigo"
 						width="85%"
 						lg-font="600 22px/1.3 &quot;Inter&quot;, sans-serif"
 						margin="0px 0px 8px 0px"
 						font="--headline4"
+						sm-font="600 28px/1.2 &quot;Inter&quot;, sans-serif"
 					>
 						Selfie Photobooth
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1">
+					<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" sm-margin="0px 0px 15px 0px">
 						Don't want to be sick and tired any more? For quick care for you and your children, text our doctors who are available 24/7. No waiting rooms or appointments.
 					</Text>
+					<Link
+						href="/login"
+						sm-padding="15px 20px 15px 20px"
+						hover-background="rgba(5, 165, 255, 0)"
+						border-width="1px"
+						border-style="solid"
+						font="--lead"
+						sm-margin="0px 22px 0px 0px"
+						border-color="rgba(255, 255, 255, 0.3)"
+						md-width="100%"
+						md-font="normal 500 16px/1.6 &quot;Inter&quot;, sans-serif"
+						text-decoration-line="initial"
+						color="--white"
+						margin="0px 44px 0px 0px"
+						hover-color="--primary"
+						hover-border-color="--color-primary"
+						md-text-align="center"
+						background="--color-indigo"
+						padding="15px 30px 15px 30px"
+						border-radius="10px"
+						sm-font="normal 500 18px/1.6 &quot;Inter&quot;, sans-serif"
+						transition="background-color 0.3s --transitionTimingFunction-easeInOut 0s"
+					>
+						<Strong>
+							Learn about photobooth
+							<br />
+						</Strong>
+					</Link>
 				</Box>
 			</Box>
 			<Box
@@ -1486,6 +1545,7 @@ export default (() => {
 					lg-width="50%"
 					md-width="100%"
 					align-self="center"
+					sm-padding="32px 30px 0 0px"
 				>
 					<Text
 						margin="0px 0px 8px 0px"
@@ -1496,33 +1556,36 @@ export default (() => {
 					>
 						360 Videobooth
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1">
+					<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" sm-margin="0px 0px 15px 0px">
 						Over 200 doctors are available to provide you with comprehensive care online at any time. Get help with managing chronic illnesses to achieve lifestyle objectives and optimize your pharmaceutical regimen.
 					</Text>
-					<LinkBox
-						lg-right="16px"
-						lg-top="49px"
-						position="absolute"
-						right="auto"
-						top="auto"
-						left="58px"
-						bottom="-31px"
-						height="48px"
-						width="48px"
+					<Link
+						href="/login"
+						sm-padding="15px 20px 15px 20px"
+						hover-background="rgba(5, 165, 255, 0)"
+						border-width="1px"
+						border-style="solid"
+						font="--lead"
+						sm-margin="0px 22px 0px 0px"
+						border-color="rgba(255, 255, 255, 0.3)"
+						md-width="100%"
+						md-font="normal 500 16px/1.6 &quot;Inter&quot;, sans-serif"
+						text-decoration-line="initial"
+						color="--white"
+						margin="0px 44px 0px 0px"
+						hover-color="--primary"
+						hover-border-color="--color-primary"
+						md-text-align="center"
+						background="--color-indigo"
+						padding="15px 30px 15px 30px"
+						border-radius="10px"
+						sm-font="normal 500 18px/1.6 &quot;Inter&quot;, sans-serif"
+						transition="background-color 0.3s --transitionTimingFunction-easeInOut 0s"
 					>
-						<Image
-							src="https://uploads.quarkly.io/6123949e957019001e284458/images/akar-icons_arrow-right.svg?v=2021-09-22T00:57:24.639Z"
-							left="auto"
-							lg-height="24px"
-							top="32px"
-							bottom="auto"
-							lg-width="24px"
-							width="48px"
-							height="48px"
-							position="static"
-							right="32px"
-						/>
-					</LinkBox>
+						<Strong>
+							Learn about videobooth
+						</Strong>
+					</Link>
 				</Box>
 				<Box
 					md-order="-1"
@@ -1574,20 +1637,44 @@ export default (() => {
 				display="flex"
 				margin="0px 0px 0px 0px"
 			>
-				<Text font="--lead" color="--primary" text-transform="uppercase" margin="0px 0px 25px 0px">
-					Booking
+				<Text
+					font="--lead"
+					color="--primary"
+					text-transform="uppercase"
+					margin="0px 0px 25px 0px"
+					sm-font="normal 500 28px/1.6 &quot;Inter&quot;, sans-serif"
+					sm-color="--indigo"
+				>
+					<Strong>
+						Booking
+					</Strong>
 				</Text>
 				<Text
 					text-align="center"
 					lg-font="normal 600 30px/1.3 --fontFamily-googleInter"
 					md-font="normal 600 25px/1.3 --fontFamily-googleInter"
-					sm-font="normal 600 19px/1.3 --fontFamily-googleInter"
+					sm-font="--base"
 					margin="0px 0px 35px 0px"
 					font="normal 600 39px/1.3 --fontFamily-googleInter"
 					color="--dark"
 					width="750px"
+					sm-display="inline"
+					sm-width="85%"
 				>
-					We offer 15% off for photobooth and videobooth package only on June 2023
+					<Span
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						<Strong>
+							15% off for photobooth and videobooth package only on June 2023
+						</Strong>
+					</Span>
 				</Text>
 				<Box
 					border-color="rgba(5, 0, 11, 0.1)"
@@ -1611,6 +1698,7 @@ export default (() => {
 							type="email"
 							required
 							background="rgba(255, 255, 255, 0)"
+							sm-text-align="left"
 						/>
 						<Button
 							sm-width="100%"
@@ -1625,6 +1713,8 @@ export default (() => {
 							background="--color-primary"
 							border-radius="10px"
 							md-padding="14px 30px 14px 30px"
+							sm-border-color="--color-indigo"
+							sm-background="--color-indigo"
 						>
 							Subscribe
 						</Button>
@@ -1636,11 +1726,23 @@ export default (() => {
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
 				<Box padding="16px 16px 16px 16px" width="33.333%" md-width="100%" align-self="center">
 					<Box display="flex" flex-direction="column">
-						<Text as="h2" font="--headline2" margin="0 0 8px 0" color="--indigo">
-							FAQs
+						<Text
+							as="p"
+							font="--lead"
+							margin="0"
+							color="--greyD2"
+							sm-font="normal 500 20px/1.6 --fontFamily-sansHelvetica"
+						>
+							Questions
 						</Text>
-						<Text as="p" font="--lead" margin="0" color="--greyD2">
-							Need answers? We got’em
+						<Text
+							as="h2"
+							font="--headline2"
+							margin="0 0 8px 0"
+							color="--indigo"
+							sm-font="normal 700 40px/1.2 &quot;Inter&quot;, sans-serif"
+						>
+							FAQs
 						</Text>
 					</Box>
 				</Box>
@@ -1655,11 +1757,17 @@ export default (() => {
 						>
 							<Box display="flex" flex-direction="column">
 								<Text as="h3" font="--lead" margin="12px 0">
-									<Strong font="--headline4">
+									<Strong font="--headline4" sm-font="600 28px/1.3 &quot;Inter&quot;, sans-serif">
 										Is there life on Mars?
 									</Strong>
 								</Text>
-								<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+								<Text
+									as="p"
+									font="--base"
+									margin="12px 0"
+									color="--greyD2"
+									sm-color="--dark"
+								>
 									It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 								</Text>
 							</Box>
@@ -1673,12 +1781,18 @@ export default (() => {
 						>
 							<Box display="flex" flex-direction="column">
 								<Text as="h3" font="--lead" margin="12px 0">
-									<Strong font="--headline4">
+									<Strong font="--headline4" sm-font="600 28px/1.3 &quot;Inter&quot;, sans-serif">
 										Why is the sky blue?
 									</Strong>
 								</Text>
 							</Box>
-							<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+							<Text
+								as="p"
+								font="--base"
+								margin="12px 0"
+								color="--greyD2"
+								sm-color="--dark"
+							>
 								It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 							</Text>
 						</Box>
@@ -1691,11 +1805,17 @@ export default (() => {
 						>
 							<Box display="flex" flex-direction="column">
 								<Text as="h3" font="--lead" margin="12px 0">
-									<Strong font="--headline4">
+									<Strong font="--headline4" sm-font="600 28px/1.3 &quot;Inter&quot;, sans-serif">
 										When will we get there?
 									</Strong>
 								</Text>
-								<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+								<Text
+									as="p"
+									font="--base"
+									margin="12px 0"
+									color="--greyD2"
+									sm-color="--dark"
+								>
 									It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 								</Text>
 							</Box>
@@ -1719,11 +1839,18 @@ export default (() => {
 										hyphens="manual"
 										user-select="auto"
 										pointer-events="auto"
+										sm-font="600 28px/1.3 &quot;Inter&quot;, sans-serif"
 									>
 										How much salt is in the ocean?
 									</Strong>
 								</Text>
-								<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+								<Text
+									as="p"
+									font="--base"
+									margin="12px 0"
+									color="--greyD2"
+									sm-color="--dark"
+								>
 									It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 								</Text>
 							</Box>
@@ -1749,7 +1876,15 @@ export default (() => {
 				md-align-items="center"
 			>
 				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/Logo%20Hub.png?v=2023-06-08T05:05:19.931Z" margin="0px 0px 24px 0px" max-width="171px" width="15%" />
-				<SocialMedia instagram="https://www.instagram.com/instagram/" align-items="flex-start" justify-content="flex-start">
+				<SocialMedia
+					instagram="https://www.instagram.com/instagram/"
+					align-items="flex-start"
+					justify-content="flex-start"
+					sm-align-self="center"
+					sm-align-items="center"
+					sm-text-align="center"
+					sm-justify-content="center"
+				>
 					<Override
 						slot="link"
 						margin="0 12px 0 0px"
