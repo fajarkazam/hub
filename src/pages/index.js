@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Section, Text, Strong, Span, LinkBox, Icon, Hr, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Section, Text, Strong, Span, LinkBox, Icon, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, SocialMedia } from "@quarkly/components";
@@ -1645,195 +1645,36 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section
-			padding="60px 0 90px 0"
-			position="relative"
-			lg-padding="60px 0 60px 0"
-			sm-padding="30px 0 30px 0"
-			md-padding="30px 0 30px 0"
-		>
-			<Override
-				slot="SectionContent"
-				lg-padding="0px 0px 0px 0px"
-				max-width="1194px"
-				flex-wrap="wrap"
-				flex-direction="row"
-			/>
+		<Section padding="90px 0 120px 0" quarkly-title="Partners-2">
+			<Text margin="0px 0px 20px 0px" text-align="center" font="--headline2" color="--indigo">
+				Clients and partners
+			</Text>
+			<Text
+				margin="0px 0px 70px 0px"
+				text-align="center"
+				font="normal 400 20px/1.5 --fontFamily-sansHelvetica"
+				color="#606469"
+				sm-margin="0px 0px 50px 0px"
+			>
+				Partnerships can help companies expand their reach, increase revenue, and access new markets.
+			</Text>
 			<Box
-				lg-align-items="flex-start"
-				flex-direction="row"
-				justify-content="flex-start"
-				margin="0px 0px 64px 0px"
-				padding="16px 0px 16px 0px"
-				lg-margin="0px 0px 24px 0px"
-				sm-flex-wrap="wrap"
-				display="flex"
+				min-width="100px"
+				min-height="100px"
+				display="grid"
+				grid-template-columns="repeat(6, 1fr)"
+				grid-gap="0 54px"
+				max-width="100%"
 				align-items="center"
-				sm-margin="0px 0px 30px 0px"
-				width="100%"
+				width="60%"
+				lg-grid-template-columns="repeat(3, 1fr)"
+				lg-grid-gap="36px 72px"
+				sm-grid-template-columns="repeat(2, 1fr)"
+				align-self="center"
 			>
-				<Box width="50%" sm-width="100%">
-					<Text color="--indigo" sm-margin="0px 0px 16px 0px" margin="0px 0px 0px 0px" font="--headline4">
-						Powered by the best
-					</Text>
-				</Box>
-				<Box
-					width="50%"
-					padding="0px 20% 0px 0px"
-					lg-padding="0px 0px 0px 0px"
-					sm-width="100%"
-					text-align="right"
-				>
-					<Text
-						margin="0px 0px 0px 0px"
-						font="--textBase"
-						color="--dark"
-						text-align="right"
-						width="500px"
-						display="flex"
-						flex-direction="column"
-						align-content="flex-end"
-					>
-						We only use the best to give you special results for your event. Whether it is a wedding, birthday, corporate event, school graduation, or even business opening event.
-					</Text>
-				</Box>
-			</Box>
-			<Hr
-				border-style="solid"
-				height="0px"
-				margin="0px 0px 32px 0px"
-				lg-margin="0px 0px 16px 0px"
-				lg-display="none"
-				width="100%"
-				border-color="rgba(66, 82, 207, 0.1)"
-				border-width="2px 0 0 0"
-			/>
-			<Box
-				margin="0px 0px 0px 0px"
-				sm-flex-wrap="wrap"
-				sm-margin="0px 0px 0px 0px"
-				justify-content="center"
-				flex-wrap="wrap"
-				width="100%"
-				display="flex"
-			>
-				<Box
-					border-style="solid"
-					sm-padding="0px 0px 0px 0px"
-					border-color="rgba(66, 82, 207, 0.1)"
-					lg-padding="16px 16px 16px 16px"
-					md-width="50%"
-					sm-display="flex"
-					sm-align-items="center"
-					width="33.333%"
-					padding="32px 74px 32px 74px"
-					border-width="0px 1px 0px 0px"
-					sm-justify-content="center"
-				>
-					<Box
-						box-shadow="1px 4px 12px rgba(0, 0, 0, 0.08)"
-						justify-content="center"
-						margin="0px 0px 0px 0px"
-						sm-width="90%"
-						width="100%"
-						padding="18px 25px 18px 25px"
-						display="flex"
-						align-items="center"
-						lg-padding="18px 18px 18px 18px"
-					>
-						<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/microsoft-surface-logo-088B989CFA-seeklogo.com.png?v=2023-06-08T06:18:18.663Z" sm-min-height="35px" align-self="center" />
-					</Box>
-				</Box>
-				<Box
-					border-width="0px 1px 0px 1px"
-					md-border-width="0px 0px 0px 1px"
-					sm-display="flex"
-					sm-align-items="center"
-					md-width="50%"
-					sm-padding="0px 0px 0px 0px"
-					sm-justify-content="center"
-					width="33.333%"
-					padding="32px 74px 32px 74px"
-					border-style="solid"
-					border-color="rgba(66, 82, 207, 0.1)"
-					lg-padding="16px 16px 16px 16px"
-					align-self="center"
-				>
-					<Box
-						sm-width="90%"
-						width="100%"
-						padding="30px 25px 30 25px"
-						align-items="center"
-						margin="0px 0px 0px 0px"
-						box-shadow="1px 4px 12px rgba(0, 0, 0, 0.08)"
-						display="flex"
-						justify-content="center"
-						lg-padding="18px 18px 18px 18px"
-					>
-						<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/DNP-logo-270E6265A5-seeklogo.com.png?v=2023-06-08T06:18:50.976Z" sm-min-height="35px" width="200px" align-self="flex-end" />
-					</Box>
-				</Box>
-				<Hr
-					md-display="block"
-					display="none"
-					border-style="solid"
-					height="0px"
-					lg-margin="16px 0px 16px 0px"
-					margin="32px 0px 32px 0px"
-					width="100%"
-					border-color="rgba(66, 82, 207, 0.1)"
-					border-width="2px 0 0 0"
-				/>
-				<Box
-					lg-padding="16px 16px 16px 16px"
-					md-width="50%"
-					md-border-width="0px 1px 0px 0px"
-					sm-display="flex"
-					sm-justify-content="center"
-					padding="32px 74px 32px 74px"
-					border-width="0px 0px 0px 1px"
-					border-style="solid"
-					sm-align-items="center"
-					width="33.333%"
-					border-color="rgba(66, 82, 207, 0.1)"
-					sm-padding="0px 0px 0px 0px"
-				>
-					<Box
-						margin="0px 0px 0px 0px"
-						width="100%"
-						box-shadow="1px 4px 12px rgba(0, 0, 0, 0.08)"
-						align-items="center"
-						lg-padding="18px 18px 18px 18px"
-						sm-width="90%"
-						padding="55px 25px 55px 25px"
-						display="flex"
-						justify-content="center"
-						align-content="center"
-					>
-						<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/logo-dslrbooth-blue.png?v=2023-06-08T06:19:44.976Z" sm-min-height="35px" />
-					</Box>
-				</Box>
-				<Hr
-					margin="32px 0px 32px 0px"
-					lg-margin="16px 0px 16px 0px"
-					md-display="none"
-					width="100%"
-					border-color="rgba(66, 82, 207, 0.1)"
-					border-width="2px 0 0 0"
-					border-style="solid"
-					height="0px"
-				/>
-				<Hr
-					height="0px"
-					border-width="2px 0 0 0"
-					border-style="solid"
-					margin="32px 0px 32px 0px"
-					lg-margin="16px 0px 16px 0px"
-					md-display="block"
-					display="none"
-					width="100%"
-					border-color="rgba(66, 82, 207, 0.1)"
-				/>
+				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/logo-dslrbooth-blue.png?v=2023-06-08T06:19:44.976Z" display="block" width="250px" height="150px" />
+				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/DNP-logo-270E6265A5-seeklogo.com.png?v=2023-06-08T06:18:50.976Z" display="block" width="125px" height="150px" />
+				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/microsoft-surface-logo-088B989CFA-seeklogo.com.png?v=2023-06-08T06:18:18.663Z" display="block" width="150px" height="150px" />
 			</Box>
 		</Section>
 		<Section sm-padding="60px 0 60px 0" lg-padding="60px 0 100px 0" padding="60px 0 160px 0">
@@ -2156,12 +1997,6 @@ export default (() => {
 			<style place={"endOfHead"} rawKey={"6123949e957019001e284456"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
-			<script place={"endOfHead"} rawKey={"648bebfa6f55b2ac9e10843b"}>
-				{"<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-KDZP2XZ');</script>\n<!-- End Google Tag Manager -->"}
-			</script>
-			<script place={"endOfBody"} rawKey={"648bec4456e5280e8b60772a"}>
-				{"<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KDZP2XZ\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"}
-			</script>
 		</RawHtml>
 	</Theme>;
 });
