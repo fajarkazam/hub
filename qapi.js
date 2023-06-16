@@ -6,7 +6,9 @@ export default {
 			"name": "root",
 			"children": [
 				"64815ff8032e8d0018850975",
-				"64815ff8032e8d0018850979"
+				"64815ff8032e8d0018850979",
+				"648c4e82588b2d0019589b32",
+				"648c4e89098f07001997045f"
 			]
 		},
 		"64815ff8032e8d0018850975": {
@@ -19,6 +21,18 @@ export default {
 			"name": "index",
 			"pageUrl": "index",
 			"customCode": {}
+		},
+		"648c4e82588b2d0019589b32": {
+			"pageUrl": "index1",
+			"customCode": {},
+			"id": "648c4e82588b2d0019589b32",
+			"name": "Photobooth"
+		},
+		"648c4e89098f07001997045f": {
+			"pageUrl": "index11",
+			"customCode": {},
+			"id": "648c4e89098f07001997045f",
+			"name": "Videobooth"
 		}
 	},
 	"mode": "production",
