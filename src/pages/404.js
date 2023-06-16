@@ -563,12 +563,6 @@ export default (() => {
 			<style place={"endOfHead"} rawKey={"6123949e957019001e284456"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
-			<script place={"endOfHead"} rawKey={"648bf26c7b956b163401d7d9"}>
-				{"<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-KDZP2XZ');</script>\n<!-- End Google Tag Manager -->"}
-			</script>
-			<script place={"endOfBody"} rawKey={"648bf275c3601c714a9d5486"}>
-				{"<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KDZP2XZ\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"}
-			</script>
 		</RawHtml>
 	</Theme>;
 });
