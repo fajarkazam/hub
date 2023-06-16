@@ -137,7 +137,7 @@ export default (() => {
 				</Components.QuarklycommunityKitMobileSidePanel>
 			</Box>
 		</Section>
-		<Section background="linear-gradient(264.47deg,#a21ba9 29.39%,#000848 93.49%)" padding="36px 0 80px 0" quarkly-title="HeroBlock" md-padding="36px 0 60px 0">
+		<Section background="linear-gradient(264.47deg,#a21ba9 29.39%,#000848 93.49%)" padding="36px 0 0 0" quarkly-title="HeroBlock" md-padding="36px 0 60px 0">
 			<Override
 				slot="SectionContent"
 				flex-direction="row"
@@ -154,12 +154,12 @@ export default (() => {
 				empty-border-color="LightGray"
 				flex-direction="column"
 				display="flex"
-				align-items="flex-start"
+				align-items="center"
 				lg-padding="0px 90px 0px 0px"
 				md-width="100%"
 				justify-content="center"
-				width="65%"
-				padding="0px 50px 0px 0px"
+				width="100%"
+				padding="0px 0 0px 0px"
 				md-padding="0px 0px 0px 0px"
 			>
 				<Text
@@ -174,26 +174,14 @@ export default (() => {
 				>
 					photobooth & videobooth service
 				</Text>
-				<Text
-					lg-text-align="left"
-					lg-font="normal 700 40px/1.2 &quot;Inter&quot;, sans-serif"
-					md-font="normal 700 28px/1.2 &quot;Inter&quot;, sans-serif"
-					margin="0px 0px 16px 0px"
-					font="--headline1"
-					color="--white"
-					sm-font="normal 500 30px/1.2 &quot;Inter&quot;, sans-serif"
-					display="block"
-					align-self="flex-start"
-					order="0"
-					flex="1 1 0%"
-					max-width="100%"
-					min-width="100%"
-				>
-					<Strong>
-						Selfie Photobooth and 360 Videobooth Services for Every Occasion
-					</Strong>
-					{"\n\n"}
-				</Text>
+				<Components.QuarklycommunityKitLoopText slides="Videobooth,Photobooth">
+					<Override slot="Before Text" color="--light">
+						The Best
+					</Override>
+					<Override slot="After Text" color="--light">
+						In Jakarta
+					</Override>
+				</Components.QuarklycommunityKitLoopText>
 				<Text
 					font="--base"
 					lg-text-align="left"
@@ -202,6 +190,7 @@ export default (() => {
 					margin="0px 0px 0px 0px"
 					color="--white"
 					opacity="1"
+					text-align="center"
 				>
 					Take your event to the next level with our Photobooth and 360 Videobooth experience. Transport your guests to a whole new dimension as they capture immersive moments from every angle.{" "}
 				</Text>
@@ -243,84 +232,62 @@ export default (() => {
 						</Strong>
 					</Link>
 				</Box>
-			</Box>
-			<Box
-				empty-border-style="solid"
-				width="40%"
-				display="flex"
-				justify-content="flex-end"
-				empty-border-width="1px"
-				empty-min-height="64px"
-				empty-border-color="LightGray"
-				align-items="center"
-				md-width="100%"
-				md-order="-1"
-				empty-min-width="64px"
-			>
-				<Image
-					lg-max-height="400px"
-					width="100%"
-					max-height="450px"
-					md-margin="0px 0px 30px 0px"
-					src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/91350836_2769110143137977_21500336516880.webp?v=2023-06-16T03:36:22.732Z"
-					lg-position="relative"
-					lg-left="-5px"
-					max-width="100%"
-				/>
+				<Box
+					empty-border-style="solid"
+					width="50%"
+					display="flex"
+					justify-content="flex-end"
+					empty-border-width="1px"
+					empty-min-height="64px"
+					empty-border-color="LightGray"
+					align-items="center"
+					md-width="100%"
+					md-order="-1"
+					empty-min-width="64px"
+				>
+					<Image
+						lg-max-height="400px"
+						width="100%"
+						max-height="450px"
+						md-margin="0px 0px 30px 0px"
+						src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/808-8084160_people-in-photo-booth-removebg-preview.png?v=2023-06-16T06:06:06.541Z"
+						lg-position="relative"
+						lg-left="-5px"
+						max-width="100%"
+					/>
+				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0">
-			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
-			<Box
-				width="33%"
-				padding="15px 15px 15px 15px"
-				align-items="center"
-				display="flex"
-				justify-content="center"
-				flex-direction="column"
-				lg-width="50%"
-				sm-width="100%"
+		<Section padding="90px 0 120px 0" quarkly-title="Partners-2">
+			<Text margin="0px 0px 20px 0px" text-align="center" font="--headline2" color="--indigo">
+				Clients and partners
+			</Text>
+			<Text
+				margin="0px 0px 70px 0px"
+				text-align="center"
+				font="normal 400 20px/1.5 --fontFamily-sansHelvetica"
+				color="#606469"
+				sm-margin="0px 0px 50px 0px"
 			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
-					70+
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
-					Client
-				</Text>
-			</Box>
+				Partnerships can help companies expand their reach, increase revenue, and access new markets.
+			</Text>
 			<Box
-				width="33%"
-				padding="15px 15px 15px 15px"
-				display="flex"
+				min-width="100px"
+				min-height="100px"
+				display="grid"
+				grid-template-columns="repeat(6, 1fr)"
+				grid-gap="0 54px"
+				max-width="100%"
 				align-items="center"
-				justify-content="center"
-				flex-direction="column"
-				lg-width="50%"
-				sm-width="100%"
+				width="60%"
+				lg-grid-template-columns="repeat(3, 1fr)"
+				lg-grid-gap="36px 72px"
+				sm-grid-template-columns="repeat(2, 1fr)"
+				align-self="center"
 			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
-					210
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
-					Hours event
-				</Text>
-			</Box>
-			<Box
-				width="33%"
-				padding="15px 15px 15px 15px"
-				display="flex"
-				align-items="center"
-				justify-content="center"
-				flex-direction="column"
-				lg-width="50%"
-				sm-width="100%"
-			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
-					2
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
-					Years experience
-				</Text>
+				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/logo-dslrbooth-blue.png?v=2023-06-08T06:19:44.976Z" display="block" width="250px" height="150px" />
+				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/DNP-logo-270E6265A5-seeklogo.com.png?v=2023-06-08T06:18:50.976Z" display="block" width="125px" height="150px" />
+				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/microsoft-surface-logo-088B989CFA-seeklogo.com.png?v=2023-06-08T06:18:18.663Z" display="block" width="150px" height="150px" />
 			</Box>
 		</Section>
 		<Section padding="90px 0 100px 0" quarkly-title="Reviews-3">
@@ -842,7 +809,13 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" lg-padding="56px 0 56px 0" sm-padding="32px 0 32px 0" background="--color-indigo">
+		<Section
+			padding="80px 0 80px 0"
+			lg-padding="56px 0 56px 0"
+			sm-padding="32px 0 32px 0"
+			background="--color-indigo"
+			quarkly-title="Event"
+		>
 			<Box
 				margin="0px 0px 32px 0px"
 				md-margin="0px 0px 40px 0px"
@@ -1043,7 +1016,7 @@ export default (() => {
 				</Box>
 			</LinkBox>
 		</Section>
-		<Section padding="160px 0 24px 0" sm-padding="80px 0 24px 0" md-padding="50px 0 24px 0">
+		<Section padding="160px 0 24px 0" sm-padding="80px 0 24px 0" md-padding="50px 0 24px 0" quarkly-title="Brochure">
 			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" />
 			<Box
 				width="50%"
@@ -1137,7 +1110,7 @@ export default (() => {
 				</Link>
 			</Box>
 		</Section>
-		<Section md-padding="60px 0 60px 0" padding="84px 0 60px 0" sm-padding="60px 0 60px 0">
+		<Section md-padding="60px 0 60px 0" padding="84px 0 60px 0" sm-padding="60px 0 60px 0" quarkly-title="Feature">
 			<Override slot="SectionContent" flex-wrap="wrap" flex-direction="row" />
 			<Box
 				border-radius="10px"
@@ -1396,7 +1369,7 @@ export default (() => {
 				</LinkBox>
 			</Box>
 		</Section>
-		<Section lg-padding="60px 0 40px 0" padding="60px 0 100px 0" md-padding="30px 0 30px 0">
+		<Section lg-padding="60px 0 40px 0" padding="60px 0 100px 0" md-padding="30px 0 30px 0" quarkly-title="Service">
 			<Text
 				md-margin="0px 0px 40px 0px"
 				lg-margin="0px 0px 40px 0px"
@@ -1479,7 +1452,7 @@ export default (() => {
 						margin="0px 0px 8px 0px"
 						font="--headline4"
 					>
-						Short video style result
+						Selfie Photobooth
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1">
 						Don't want to be sick and tired any more? For quick care for you and your children, text our doctors who are available 24/7. No waiting rooms or appointments.
@@ -1521,7 +1494,7 @@ export default (() => {
 						width="85%"
 						lg-font="600 22px/1.3 &quot;Inter&quot;, sans-serif"
 					>
-						Instant sharing
+						360 Videobooth
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1">
 						Over 200 doctors are available to provide you with comprehensive care online at any time. Get help with managing chronic illnesses to achieve lifestyle objectives and optimize your pharmaceutical regimen.
@@ -1568,114 +1541,6 @@ export default (() => {
 					/>
 				</Box>
 			</Box>
-			<Box
-				display="flex"
-				width="100%"
-				border-style="solid"
-				border-radius="10px"
-				min-height="284px"
-				md-border-radius="0px"
-				margin="0px 0px 20px 0px"
-				sm-margin="0px 0px 30px 0px"
-				padding="0px 0px 0px 0px"
-				border-color="rgba(66, 82, 207, 0.1)"
-				border-width="2px"
-				flex-wrap="wrap"
-				md-border-width="0px 0px 2px 0px"
-			>
-				<Box md-width="100%" width="30%" display="flex" lg-width="50%">
-					<Image
-						margin="-1px 0px -1px -1px"
-						src="https://images.unsplash.com/photo-1649183424680-464747a8e43d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
-						object-fit="cover"
-						width="100%"
-						border-radius="10px"
-						md-margin="0px 0px 0px 0px"
-					/>
-				</Box>
-				<Box
-					md-width="100%"
-					padding="32px 17% 32px 62px"
-					display="flex"
-					lg-width="50%"
-					position="relative"
-					lg-padding="32px 30px 32px 32px"
-					md-padding="32px 30px 32px 0px"
-					width="70%"
-					flex-direction="column"
-					justify-content="space-between"
-					align-self="center"
-				>
-					<Text
-						margin="0px 0px 8px 0px"
-						font="--headline4"
-						color="--indigo"
-						width="100%"
-						lg-font="600 22px/1.3 &quot;Inter&quot;, sans-serif"
-					>
-						Personalized to match with your event
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" width="100%">
-						We are constantly getting better and more affordable. Our technology can keep prices low because our care teams are more concentrated on you rather than paperwork or billing. Plus we got rid of copays and hidden fees.
-					</Text>
-					<LinkBox
-						position="absolute"
-						right="auto"
-						top="auto"
-						bottom="-32px"
-						left="58px"
-						lg-right="16px"
-						lg-top="49px"
-						height="48px"
-						width="48px"
-					>
-						<Image
-							lg-width="24px"
-							lg-height="24px"
-							right="32px"
-							top="32px"
-							left="auto"
-							bottom="auto"
-							width="48px"
-							height="48px"
-							src="https://uploads.quarkly.io/6123949e957019001e284458/images/akar-icons_arrow-right.svg?v=2021-09-22T00:57:24.639Z"
-							position="static"
-						/>
-					</LinkBox>
-				</Box>
-			</Box>
-		</Section>
-		<Section padding="90px 0 120px 0" quarkly-title="Partners-2">
-			<Text margin="0px 0px 20px 0px" text-align="center" font="--headline2" color="--indigo">
-				Clients and partners
-			</Text>
-			<Text
-				margin="0px 0px 70px 0px"
-				text-align="center"
-				font="normal 400 20px/1.5 --fontFamily-sansHelvetica"
-				color="#606469"
-				sm-margin="0px 0px 50px 0px"
-			>
-				Partnerships can help companies expand their reach, increase revenue, and access new markets.
-			</Text>
-			<Box
-				min-width="100px"
-				min-height="100px"
-				display="grid"
-				grid-template-columns="repeat(6, 1fr)"
-				grid-gap="0 54px"
-				max-width="100%"
-				align-items="center"
-				width="60%"
-				lg-grid-template-columns="repeat(3, 1fr)"
-				lg-grid-gap="36px 72px"
-				sm-grid-template-columns="repeat(2, 1fr)"
-				align-self="center"
-			>
-				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/logo-dslrbooth-blue.png?v=2023-06-08T06:19:44.976Z" display="block" width="250px" height="150px" />
-				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/DNP-logo-270E6265A5-seeklogo.com.png?v=2023-06-08T06:18:50.976Z" display="block" width="125px" height="150px" />
-				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/microsoft-surface-logo-088B989CFA-seeklogo.com.png?v=2023-06-08T06:18:18.663Z" display="block" width="150px" height="150px" />
-			</Box>
 		</Section>
 		<Section sm-padding="60px 0 60px 0" lg-padding="60px 0 100px 0" padding="60px 0 160px 0">
 			<Override slot="SectionContent" justify-content="center" align-items="center" />
@@ -1710,7 +1575,7 @@ export default (() => {
 				margin="0px 0px 0px 0px"
 			>
 				<Text font="--lead" color="--primary" text-transform="uppercase" margin="0px 0px 25px 0px">
-					inquiry
+					Booking
 				</Text>
 				<Text
 					text-align="center"
@@ -1722,7 +1587,7 @@ export default (() => {
 					color="--dark"
 					width="750px"
 				>
-					We offer 20% off for photobooth and videobooth package
+					We offer 15% off for photobooth and videobooth package only on June 2023
 				</Text>
 				<Box
 					border-color="rgba(5, 0, 11, 0.1)"
