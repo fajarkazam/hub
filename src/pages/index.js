@@ -26,18 +26,6 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6123949e957019001e284458/images/favicon270.svg?v=2021-09-21T16:18:07.731Z"} />
 			<meta name={"msapplication-TileColor"} content={"#000848"} />
 		</Helmet>
-		<Image
-			md-top="300px"
-			lg-top="0px"
-			src="https://uploads.quarkly.io/6123949e957019001e284458/images/backgroung-hero.svg?v=2021-09-21T22:07:12.314Z"
-			position="absolute"
-			right="0px"
-			bottom="auto"
-			top="130px"
-			z-index="1"
-			lg-right="-200px"
-			md-width="600px"
-		/>
 		<Section background="--color-indigo" padding="36px 0 36px 0" quarkly-title="Header">
 			<Override slot="SectionContent" flex-direction="row" />
 			<Box
