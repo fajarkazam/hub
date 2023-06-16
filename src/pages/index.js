@@ -158,8 +158,8 @@ export default (() => {
 				lg-padding="0px 90px 0px 0px"
 				md-width="100%"
 				justify-content="center"
-				width="70%"
-				padding="0px 180px 0px 0px"
+				width="65%"
+				padding="0px 50px 0px 0px"
 				md-padding="0px 0px 0px 0px"
 			>
 				<Text
@@ -246,7 +246,7 @@ export default (() => {
 			</Box>
 			<Box
 				empty-border-style="solid"
-				width="30%"
+				width="40%"
 				display="flex"
 				justify-content="flex-end"
 				empty-border-width="1px"
@@ -262,7 +262,7 @@ export default (() => {
 					width="100%"
 					max-height="450px"
 					md-margin="0px 0px 30px 0px"
-					src="https://images.unsplash.com/photo-1556570836-1b2c15b33119?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+					src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/91350836_2769110143137977_21500336516880.webp?v=2023-06-16T03:36:22.732Z"
 					lg-position="relative"
 					lg-left="-5px"
 					max-width="100%"
@@ -291,7 +291,7 @@ export default (() => {
 					md-width="100%"
 					border-radius="10px"
 					lg-max-height="366px"
-					src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+					src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/billings+montana+photo+booth+rental.jfif?v=2023-06-16T03:35:58.188Z"
 					left="-140px"
 					max-width="100%"
 					object-fit="cover"
@@ -312,7 +312,6 @@ export default (() => {
 				align-items="flex-start"
 			>
 				<Box display="flex" margin="0px 0px 20px 0px" align-items="center" sm-width="100%">
-					<Image width="24px" height="24px" src="https://uploads.quarkly.io/6123949e957019001e284458/images/icon-man.svg?v=2021-09-21T22:14:38.397Z" margin="0px 15px 0px 0px" />
 					<Text
 						margin="0px 0px 0px 0px"
 						color="--primary"
@@ -1135,7 +1134,7 @@ export default (() => {
 						align-items="center"
 						lg-padding="18px 18px 18px 18px"
 					>
-						<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/microsoft-surface-logo-088B989CFA-seeklogo.com.png?v=2023-06-08T06:18:18.663Z" sm-min-height="35px" />
+						<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/microsoft-surface-logo-088B989CFA-seeklogo.com.png?v=2023-06-08T06:18:18.663Z" sm-min-height="35px" align-self="center" />
 					</Box>
 				</Box>
 				<Box
@@ -1151,6 +1150,7 @@ export default (() => {
 					border-style="solid"
 					border-color="rgba(66, 82, 207, 0.1)"
 					lg-padding="16px 16px 16px 16px"
+					align-self="center"
 				>
 					<Box
 						sm-width="90%"
@@ -1163,7 +1163,7 @@ export default (() => {
 						justify-content="center"
 						lg-padding="18px 18px 18px 18px"
 					>
-						<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/DNP-logo-270E6265A5-seeklogo.com.png?v=2023-06-08T06:18:50.976Z" sm-min-height="35px" />
+						<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/DNP-logo-270E6265A5-seeklogo.com.png?v=2023-06-08T06:18:50.976Z" sm-min-height="35px" width="200px" align-self="flex-end" />
 					</Box>
 				</Box>
 				<Hr
@@ -1262,7 +1262,7 @@ export default (() => {
 				margin="0px 0px 0px 0px"
 			>
 				<Text font="--lead" color="--primary" text-transform="uppercase" margin="0px 0px 25px 0px">
-					NEWSLETTER
+					inquiry
 				</Text>
 				<Text
 					text-align="center"
@@ -1272,6 +1272,7 @@ export default (() => {
 					margin="0px 0px 35px 0px"
 					font="normal 600 39px/1.3 --fontFamily-googleInter"
 					color="--dark"
+					width="750px"
 				>
 					We offer 20% off for photobooth and videobooth package
 				</Text>
@@ -1318,6 +1319,96 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Section padding="60px 0" sm-padding="40px 0" color="--dark">
+			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
+				<Box padding="16px 16px 16px 16px" width="33.333%" md-width="100%" align-self="center">
+					<Box display="flex" flex-direction="column">
+						<Text as="h2" font="--headline4" margin="0 0 8px 0" color="--indigo">
+							FAQs
+						</Text>
+						<Text as="p" font="--lead" margin="0" color="--greyD2">
+							Need answers? We got’em
+						</Text>
+					</Box>
+				</Box>
+				<Box padding="16px 16px 16px 16px" width="66.66%" md-width="100%">
+					<Box display="flex" flex-direction="row" flex-wrap="wrap">
+						<Box
+							display="flex"
+							flex-direction="column"
+							width="50%"
+							padding="16px 16px 16px 16px"
+							sm-width="100%"
+						>
+							<Box display="flex" flex-direction="column">
+								<Text as="h3" font="--lead" margin="12px 0">
+									<Strong>
+										Is there life on Mars?
+									</Strong>
+								</Text>
+								<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+									It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+								</Text>
+							</Box>
+						</Box>
+						<Box
+							display="flex"
+							flex-direction="column"
+							width="50%"
+							padding="16px 16px 16px 16px"
+							sm-width="100%"
+						>
+							<Box display="flex" flex-direction="column">
+								<Text as="h3" font="--lead" margin="12px 0">
+									<Strong>
+										Why is the sky blue?
+									</Strong>
+								</Text>
+							</Box>
+							<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+								It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+							</Text>
+						</Box>
+						<Box
+							display="flex"
+							flex-direction="column"
+							width="50%"
+							padding="16px 16px 16px 16px"
+							sm-width="100%"
+						>
+							<Box display="flex" flex-direction="column">
+								<Text as="h3" font="--lead" margin="12px 0">
+									<Strong>
+										When will we get there?
+									</Strong>
+								</Text>
+								<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+									It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+								</Text>
+							</Box>
+						</Box>
+						<Box
+							display="flex"
+							flex-direction="column"
+							width="50%"
+							padding="16px 16px 16px 16px"
+							sm-width="100%"
+						>
+							<Box display="flex" flex-direction="column">
+								<Text as="h3" font="--lead" margin="12px 0">
+									<Strong>
+										How much salt is in the ocean?
+									</Strong>
+								</Text>
+								<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+									It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+								</Text>
+							</Box>
+						</Box>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
 		<Section background="#a21ba9" padding="100px 0 100px 0" md-padding="40px 0 40px 0">
 			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" />
 			<Box
@@ -1334,15 +1425,8 @@ export default (() => {
 				width="50%"
 				md-align-items="center"
 			>
-				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/Logo%20Hub.png?v=2023-06-08T05:05:19.931Z" margin="0px 0px 24px 0px" max-width="171px" width="25%" />
-				<SocialMedia
-					facebook="https://www.facebook.com/quarklyapp/"
-					twitter="https://twitter.com/quarklyapp"
-					telegram="https://t.me/joinchat/DqSYDhS0R9nMRvOtFbIxrQ"
-					instagram="https://www.instagram.com/instagram/"
-					align-items="flex-start"
-					justify-content="flex-start"
-				>
+				<Image src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/Logo%20Hub.png?v=2023-06-08T05:05:19.931Z" margin="0px 0px 24px 0px" max-width="171px" width="15%" />
+				<SocialMedia instagram="https://www.instagram.com/instagram/" align-items="flex-start" justify-content="flex-start">
 					<Override
 						slot="link"
 						margin="0 12px 0 0px"
