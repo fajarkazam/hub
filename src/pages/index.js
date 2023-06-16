@@ -274,7 +274,7 @@ export default (() => {
 		</Section>
 		<Section padding="90px 0 100px 0" quarkly-title="Reviews-3">
 			<Text
-				margin="0px 0px 20px 0px"
+				margin="0px 0px 0 0px"
 				font="normal 500 20px/1.5 --fontFamily-sansHelvetica"
 				color="--indigo"
 				lg-margin="0px 0px 20px 0px"
@@ -830,6 +830,7 @@ export default (() => {
 					sm-text-align="left"
 					sm-font="normal 500 20px/1.2 --fontFamily-sansHelvetica"
 					sm-margin="16px 0px 0 0px"
+					margin="16px 0px 0 0px"
 				>
 					Event
 				</Text>
@@ -838,7 +839,7 @@ export default (() => {
 					color="--light"
 					text-align="center"
 					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-					margin="16px 0px 0px 0px"
+					margin="0 0px 0px 0px"
 					sm-align-self="flex-start"
 					sm-font="normal 700 36px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					sm-margin="0 0px 40px 0px"
@@ -889,7 +890,7 @@ export default (() => {
 					sm-padding="16px 0 16px 0"
 				>
 					<Text
-						font="--headline3"
+						font="--headline4"
 						color="--light"
 						margin="0px 0px 8px 0px"
 						sm-align-self="flex-start"
@@ -954,7 +955,7 @@ export default (() => {
 							hyphens="manual"
 							user-select="auto"
 							pointer-events="auto"
-							font="--headline3"
+							font="--headline4"
 							sm-font="normal 400 28px/1.2 &quot;Inter&quot;, sans-serif"
 						>
 							Corporate Event
@@ -1018,6 +1019,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 							sm-font="28px/58.8px Inter, sans-serif"
+							font="--headline4"
 						>
 							Birthday Party
 						</Span>
@@ -1075,7 +1077,7 @@ export default (() => {
 				<Box display="flex" margin="0px 0px 20px 0px" align-items="center" sm-width="100%" />
 				<Text
 					font="--lead"
-					color="--light"
+					color="--indigo"
 					text-align="center"
 					md-width="100%"
 					max-width="600px"
@@ -1143,7 +1145,7 @@ export default (() => {
 			<Override slot="SectionContent" flex-wrap="wrap" flex-direction="row" />
 			<Text
 				font="--lead"
-				color="--light"
+				color="--indigo"
 				text-align="center"
 				md-width="100%"
 				max-width="600px"
@@ -1151,11 +1153,12 @@ export default (() => {
 				sm-font="normal 500 20px/1.2 --fontFamily-sansHelvetica"
 				sm-margin="16px 0px 0 0px"
 				sm-color="--indigo"
+				margin="16px 0px 0 0px"
 			>
 				Features
 			</Text>
 			<Text
-				width="85%"
+				width="100%"
 				lg-width="100%"
 				lg-font="normal 700 34px/1.2 &quot;Inter&quot;, sans-serif"
 				md-font="normal 700 24px/1.2 &quot;Inter&quot;, sans-serif"
@@ -1180,7 +1183,7 @@ export default (() => {
 				lg-margin="0px 0px 0px 0px"
 				md-width="100%"
 				sm-width="100%"
-				padding="16px 16px 16px 16px"
+				padding="16px 0 16px 0"
 				lg-width="50%"
 			>
 				<Text margin="20px 0px 10px 0px" color="--dark" font="--base" opacity=".9">
@@ -1421,7 +1424,7 @@ export default (() => {
 		<Section lg-padding="60px 0 40px 0" padding="60px 0 100px 0" md-padding="30px 0 30px 0" quarkly-title="Service">
 			<Text
 				font="--lead"
-				color="--light"
+				color="--indigo"
 				text-align="center"
 				md-width="100%"
 				max-width="600px"
@@ -1429,6 +1432,8 @@ export default (() => {
 				sm-font="normal 500 20px/1.2 --fontFamily-sansHelvetica"
 				sm-margin="16px 0px 0 0px"
 				sm-color="--indigo"
+				align-self="center"
+				margin="16px 0px 0 0px"
 			>
 				Services
 			</Text>
@@ -1495,7 +1500,7 @@ export default (() => {
 					>
 						Selfie Photobooth
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" sm-margin="0px 0px 15px 0px">
+					<Text margin="0px 0px 15px 0px" font="--textBase" color="--darkL1" sm-margin="0px 0px 15px 0px">
 						Don't want to be sick and tired any more? For quick care for you and your children, text our doctors who are available 24/7. No waiting rooms or appointments.
 					</Text>
 					<Link
@@ -1520,6 +1525,7 @@ export default (() => {
 						border-radius="10px"
 						sm-font="normal 500 18px/1.6 &quot;Inter&quot;, sans-serif"
 						transition="background-color 0.3s --transitionTimingFunction-easeInOut 0s"
+						width="300px"
 					>
 						<Strong>
 							Learn about photobooth
@@ -1566,7 +1572,7 @@ export default (() => {
 					>
 						360 Videobooth
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" sm-margin="0px 0px 15px 0px">
+					<Text margin="0px 0px 15px 0px" font="--textBase" color="--darkL1" sm-margin="0px 0px 15px 0px">
 						Over 200 doctors are available to provide you with comprehensive care online at any time. Get help with managing chronic illnesses to achieve lifestyle objectives and optimize your pharmaceutical regimen.
 					</Text>
 					<Link
@@ -1591,6 +1597,7 @@ export default (() => {
 						border-radius="10px"
 						sm-font="normal 500 18px/1.6 &quot;Inter&quot;, sans-serif"
 						transition="background-color 0.3s --transitionTimingFunction-easeInOut 0s"
+						width="300px"
 					>
 						<Strong>
 							Learn about videobooth
@@ -1648,16 +1655,28 @@ export default (() => {
 				margin="0px 0px 0px 0px"
 			>
 				<Text
-					font="--lead"
+					font="normal 500 20px/1.6 --fontFamily-serifTimes"
 					color="--primary"
 					text-transform="uppercase"
 					margin="0px 0px 25px 0px"
 					sm-font="normal 500 28px/1.6 &quot;Inter&quot;, sans-serif"
 					sm-color="--indigo"
 				>
-					<Strong>
-						Booking
-					</Strong>
+					<Span
+						font="--headline3"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						<Strong font="--headline2" color="--indigo">
+							Booking
+						</Strong>
+					</Span>
 				</Text>
 				<Text
 					text-align="center"
@@ -1681,7 +1700,7 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 					>
-						<Strong>
+						<Strong font="--lead">
 							15% off for photobooth and videobooth package only on June 2023
 						</Strong>
 					</Span>
@@ -1740,7 +1759,7 @@ export default (() => {
 							as="p"
 							font="--lead"
 							margin="0"
-							color="--greyD2"
+							color="--indigo"
 							sm-font="normal 500 20px/1.6 --fontFamily-sansHelvetica"
 						>
 							Questions
@@ -1775,8 +1794,9 @@ export default (() => {
 									as="p"
 									font="--base"
 									margin="12px 0"
-									color="--greyD2"
+									color="--dark"
 									sm-color="--dark"
+									opacity="1"
 								>
 									It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 								</Text>
@@ -1800,7 +1820,7 @@ export default (() => {
 								as="p"
 								font="--base"
 								margin="12px 0"
-								color="--greyD2"
+								color="--dark"
 								sm-color="--dark"
 							>
 								It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
@@ -1823,7 +1843,7 @@ export default (() => {
 									as="p"
 									font="--base"
 									margin="12px 0"
-									color="--greyD2"
+									color="--dark"
 									sm-color="--dark"
 								>
 									It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
@@ -1858,7 +1878,7 @@ export default (() => {
 									as="p"
 									font="--base"
 									margin="12px 0"
-									color="--greyD2"
+									color="--dark"
 									sm-color="--dark"
 								>
 									It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
