@@ -145,6 +145,7 @@ export default (() => {
 			flex-direction="column"
 			sm-height="680px"
 			sm-padding="36px 0 0 0"
+			height="525px"
 		>
 			<Override
 				slot="SectionContent"
@@ -183,10 +184,17 @@ export default (() => {
 					sm-font="normal 500 16px/1.6 &quot;Inter&quot;, sans-serif"
 					sm-align-self="center"
 					sm-text-align="center"
+					align-self="flex-start"
 				>
 					photobooth & videobooth service
 				</Text>
-				<Components.QuarklycommunityKitLoopText slides="Videobooth,Photobooth" sm-font="700 50px/0.2 Inter, sans-serif" sm-align-self="center" sm-text-align="center">
+				<Components.QuarklycommunityKitLoopText
+					slides="Videobooth,Photobooth"
+					sm-font="700 50px/0.2 Inter, sans-serif"
+					sm-align-self="center"
+					sm-text-align="center"
+					font="700 50px/0.5 Inter, sans-serif"
+				>
 					<Override slot="Before Text" color="--light">
 						The Best
 					</Override>
@@ -202,8 +210,9 @@ export default (() => {
 					margin="0px 0px 0px 0px"
 					color="--white"
 					opacity="1"
-					text-align="center"
+					text-align="left"
 					sm-text-align="center"
+					align-self="flex-start"
 				>
 					Elevate your event using the newest technology of 360 videobooth and selfie photobooth
 				</Text>
@@ -216,6 +225,7 @@ export default (() => {
 					sm-align-self="center"
 					sm-text-align="center"
 					sm-justify-content="center"
+					align-self="flex-start"
 				>
 					<Link
 						sm-margin="0px 22px 0px 0px"
