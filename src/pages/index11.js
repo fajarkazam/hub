@@ -304,7 +304,7 @@ export default (() => {
 					pointer-events="auto"
 					sm-font="40px/0.6 Inter, sans-serif"
 				>
-					<Strong sm-font="700 36px/0.5 Inter, sans-serif" sm-text-align="left">
+					<Strong sm-font="700 36px/0.5 Inter, sans-serif" sm-text-align="left" color="--indigo">
 						What customers say about us
 					</Strong>
 				</Span>
@@ -889,7 +889,7 @@ export default (() => {
 					sm-padding="16px 0 16px 0"
 				>
 					<Text
-						font="--headline3"
+						font="--headline4"
 						color="--light"
 						margin="0px 0px 8px 0px"
 						sm-align-self="flex-start"
@@ -954,7 +954,7 @@ export default (() => {
 							hyphens="manual"
 							user-select="auto"
 							pointer-events="auto"
-							font="--headline3"
+							font="--headline4"
 							sm-font="normal 400 28px/1.2 &quot;Inter&quot;, sans-serif"
 						>
 							Corporate Event
@@ -1018,6 +1018,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 							sm-font="28px/58.8px Inter, sans-serif"
+							font="--headline4"
 						>
 							Birthday Party
 						</Span>
