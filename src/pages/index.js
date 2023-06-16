@@ -2003,7 +2003,17 @@ export default (() => {
 						>
 							<Box display="flex" flex-direction="column">
 								<Text as="h3" font="--lead" margin="12px 0">
-									<Strong font="--headline4">
+									<Strong
+										font="--headline4"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+										user-select="auto"
+										pointer-events="auto"
+									>
 										How much salt is in the ocean?
 									</Strong>
 								</Text>
@@ -2146,6 +2156,12 @@ export default (() => {
 			<style place={"endOfHead"} rawKey={"6123949e957019001e284456"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
+			<script place={"endOfHead"} rawKey={"648bebfa6f55b2ac9e10843b"}>
+				{"<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-KDZP2XZ');</script>\n<!-- End Google Tag Manager -->"}
+			</script>
+			<script place={"endOfBody"} rawKey={"648bec4456e5280e8b60772a"}>
+				{"<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KDZP2XZ\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"}
+			</script>
 		</RawHtml>
 	</Theme>;
 });
