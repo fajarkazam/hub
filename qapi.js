@@ -7,6 +7,7 @@ export default {
 			"children": [
 				"64815ff8032e8d0018850975",
 				"64815ff8032e8d0018850979",
+				"64a27abb6efcea001ae2ed30",
 				"648c4e82588b2d0019589b32",
 				"648c4e89098f07001997045f"
 			]
@@ -23,16 +24,22 @@ export default {
 			"customCode": {}
 		},
 		"648c4e82588b2d0019589b32": {
-			"pageUrl": "index1",
+			"pageUrl": "photobooth",
 			"customCode": {},
 			"id": "648c4e82588b2d0019589b32",
 			"name": "Photobooth"
 		},
 		"648c4e89098f07001997045f": {
-			"pageUrl": "index11",
+			"pageUrl": "videobooth",
 			"customCode": {},
 			"id": "648c4e89098f07001997045f",
 			"name": "Videobooth"
+		},
+		"64a27abb6efcea001ae2ed30": {
+			"pageUrl": "Homepage",
+			"customCode": {},
+			"id": "64a27abb6efcea001ae2ed30",
+			"name": "Homepage"
 		}
 	},
 	"mode": "production",

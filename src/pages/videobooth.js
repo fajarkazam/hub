@@ -9,7 +9,7 @@ import { FaCamera, FaShareAltSquare, FaElementor } from "react-icons/fa";
 import { IoIosPeople } from "react-icons/io";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"index"} />
+		<GlobalQuarklyPageStyles pageUrl={"videobooth"} />
 		<Helmet>
 			<title>
 				Help for you — Healthcare without the system
@@ -143,9 +143,9 @@ export default (() => {
 			quarkly-title="HeroBlock"
 			md-padding="36px 0 60px 0"
 			flex-direction="column"
-			sm-height="750px"
+			sm-height="680px"
 			sm-padding="36px 0 0 0"
-			height="525px"
+			height="500px"
 		>
 			<Override
 				slot="SectionContent"
@@ -190,7 +190,7 @@ export default (() => {
 				</Text>
 				<Components.QuarklycommunityKitLoopText
 					slides="Videobooth,Photobooth"
-					sm-font="700 50px/0.2 Inter, sans-serif"
+					sm-font="700 50px/0.5 Inter, sans-serif"
 					sm-align-self="center"
 					sm-text-align="center"
 					font="700 50px/0.5 Inter, sans-serif"
@@ -212,8 +212,6 @@ export default (() => {
 					opacity="1"
 					text-align="left"
 					sm-text-align="center"
-					align-self="flex-start"
-					sm-margin="0px 0px 30px 0px"
 				>
 					Elevate your event using the newest technology of 360 videobooth and selfie photobooth
 				</Text>
@@ -229,7 +227,7 @@ export default (() => {
 					align-self="flex-start"
 				>
 					<Link
-						sm-margin="0px 22px 40px 0px"
+						sm-margin="0px 22px 0px 0px"
 						transition="background-color 0.3s --transitionTimingFunction-easeInOut 0s"
 						href="/login"
 						text-decoration-line="initial"
@@ -306,7 +304,7 @@ export default (() => {
 					pointer-events="auto"
 					sm-font="40px/0.6 Inter, sans-serif"
 				>
-					<Strong sm-font="700 36px/0.5 Inter, sans-serif" sm-text-align="left">
+					<Strong sm-font="700 36px/0.5 Inter, sans-serif" sm-text-align="left" color="--indigo">
 						What customers say about us
 					</Strong>
 				</Span>
@@ -352,6 +350,21 @@ export default (() => {
 						md-min-width={0}
 						md-min-height={0}
 					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/13q.jpg?v=2023-04-18T18:57:20.417Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
 						<Box min-width="10px" min-height="10px">
 							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
 								Adam Luis
@@ -390,9 +403,27 @@ export default (() => {
 						md-min-width={0}
 						md-min-height={0}
 					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/14q.jpg?v=2023-04-17T21:07:08.834Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
 						<Box min-width="10px" min-height="10px">
 							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
 								Melisa Williams
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@melisawilliams
 							</Text>
 						</Box>
 					</Box>
@@ -425,9 +456,27 @@ export default (() => {
 						md-min-width={0}
 						md-min-height={0}
 					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/16q.jpg?v=2023-04-18T18:57:30.439Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
 						<Box min-width="10px" min-height="10px">
 							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
 								Jane Adams
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@janeadams
 							</Text>
 						</Box>
 					</Box>
@@ -460,9 +509,27 @@ export default (() => {
 						md-min-width={0}
 						md-min-height={0}
 					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/5q.jpg?v=2023-04-17T21:12:16.116Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
 						<Box min-width="10px" min-height="10px">
 							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
 								Michael Lee
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@michaellee
 							</Text>
 						</Box>
 					</Box>
@@ -495,9 +562,27 @@ export default (() => {
 						md-min-width={0}
 						md-min-height={0}
 					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/3q.jpg?v=2023-04-17T22:37:36.273Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
 						<Box min-width="10px" min-height="10px">
 							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
 								Tom Paul
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@tompaul
 							</Text>
 						</Box>
 					</Box>
@@ -530,9 +615,27 @@ export default (() => {
 						md-min-width={0}
 						md-min-height={0}
 					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/10q.jpg?v=2023-04-17T21:12:01.188Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
 						<Box min-width="10px" min-height="10px">
 							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
 								Maria Davidson
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@mariadavid
 							</Text>
 						</Box>
 					</Box>
@@ -565,9 +668,27 @@ export default (() => {
 						md-min-width={0}
 						md-min-height={0}
 					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/9q.jpg?v=2023-04-18T18:57:05.682Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
 						<Box min-width="10px" min-height="10px">
 							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
 								Carlos Odis
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@carlosodis
 							</Text>
 						</Box>
 					</Box>
@@ -600,9 +721,27 @@ export default (() => {
 						md-min-width={0}
 						md-min-height={0}
 					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/6q.jpg?v=2023-04-18T18:56:44.939Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
 						<Box min-width="10px" min-height="10px">
 							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
 								Sarah Cook
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@sarahcook
 							</Text>
 						</Box>
 					</Box>
@@ -635,9 +774,27 @@ export default (() => {
 						md-min-width={0}
 						md-min-height={0}
 					>
+						<Image
+							src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/2q.jpg?v=2023-04-17T20:54:40.886Z"
+							display="block"
+							margin="0px 25px 0px 0px"
+							width="80px"
+							height="80px"
+							border-radius="50%"
+							border-width="1px"
+							border-style="solid"
+							border-color="#b0b7bb"
+							object-fit="cover"
+							md-margin="0px 15px 0px 0px"
+							md-width="68px"
+							md-height="68px"
+						/>
 						<Box min-width="10px" min-height="10px">
 							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sans">
 								Leslie Alexander
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sansHelvetica" color="#676d73">
+								@lesliealexander
 							</Text>
 						</Box>
 					</Box>
@@ -710,7 +867,7 @@ export default (() => {
 					lg-width="100%"
 				>
 					<Image
-						src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/billings+montana+photo+booth+rental.jfif?v=2023-06-16T03:35:58.188Z"
+						src="https://images.unsplash.com/photo-1599360889420-da1afaba9edc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1220&q=80"
 						border-radius="24px"
 						max-width="100%"
 						max-height="522px"
@@ -765,7 +922,7 @@ export default (() => {
 					lg-width="100%"
 				>
 					<Image
-						src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/91350836_2769110143137977_21500336516880.webp?v=2023-06-16T03:36:22.732Z"
+						src="https://images.unsplash.com/photo-1548094990-c16ca90f1f0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1220&q=80"
 						border-radius="24px"
 						max-width="100%"
 						max-height="522px"
@@ -828,7 +985,7 @@ export default (() => {
 					lg-width="100%"
 				>
 					<Image
-						src="https://uploads.quarkly.io/64815ff8032e8d0018850961/images/The+Photo+Booth+Guys+%287%29.jpg?v=2023-06-16T03:37:35.812Z"
+						src="https://images.unsplash.com/photo-1548094990-c16ca90f1f0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1220&q=80"
 						border-radius="24px"
 						max-width="100%"
 						max-height="522px"
@@ -915,8 +1072,8 @@ export default (() => {
 				flex-direction="column"
 				align-items="flex-start"
 				sm-padding="16px 0 16px 0"
+				align-self="flex-start"
 			>
-				<Box display="flex" margin="0px 0px 20px 0px" align-items="center" sm-width="100%" />
 				<Text
 					font="--lead"
 					color="--indigo"
@@ -944,7 +1101,6 @@ export default (() => {
 				</Text>
 				<Text
 					font="--base"
-					opacity=".7"
 					lg-font="normal 400 16px/1.5 &quot;Inter&quot;, sans-serif"
 					md-font="normal 400 14px/1.5 &quot;Inter&quot;, sans-serif"
 					margin="0px 0px 25px 0px"
@@ -1025,7 +1181,7 @@ export default (() => {
 				lg-margin="0px 0px 0px 0px"
 				md-width="100%"
 				sm-width="100%"
-				padding="16px 0 16px 0"
+				padding="16px 16px 16px 16px"
 				lg-width="50%"
 			>
 				<Text margin="20px 0px 10px 0px" color="--dark" font="--base" opacity=".9">
@@ -1497,28 +1653,16 @@ export default (() => {
 				margin="0px 0px 0px 0px"
 			>
 				<Text
-					font="normal 500 20px/1.6 --fontFamily-serifTimes"
-					color="--primary"
+					font="--headline3"
+					color="--indigo"
 					text-transform="uppercase"
 					margin="0px 0px 25px 0px"
 					sm-font="normal 500 28px/1.6 &quot;Inter&quot;, sans-serif"
 					sm-color="--indigo"
 				>
-					<Span
-						font="--headline3"
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						<Strong font="--headline2" color="--indigo">
-							Booking
-						</Strong>
-					</Span>
+					<Strong>
+						Booking
+					</Strong>
 				</Text>
 				<Text
 					text-align="center"
@@ -1526,7 +1670,7 @@ export default (() => {
 					md-font="normal 600 25px/1.3 --fontFamily-googleInter"
 					sm-font="--base"
 					margin="0px 0px 35px 0px"
-					font="normal 600 39px/1.3 --fontFamily-googleInter"
+					font="--lead"
 					color="--dark"
 					width="750px"
 					sm-display="inline"
@@ -1542,7 +1686,7 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 					>
-						<Strong font="--lead">
+						<Strong>
 							15% off for photobooth and videobooth package only on June 2023
 						</Strong>
 					</Span>
@@ -1581,7 +1725,7 @@ export default (() => {
 							hover-background="--color-light"
 							hover-color="--primary"
 							border-style="solid"
-							background="--color-primary"
+							background="--color-indigo"
 							border-radius="10px"
 							md-padding="14px 30px 14px 30px"
 							sm-border-color="--color-indigo"
@@ -1636,9 +1780,8 @@ export default (() => {
 									as="p"
 									font="--base"
 									margin="12px 0"
-									color="--dark"
+									color="--greyD2"
 									sm-color="--dark"
-									opacity="1"
 								>
 									It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 								</Text>
@@ -1662,7 +1805,7 @@ export default (() => {
 								as="p"
 								font="--base"
 								margin="12px 0"
-								color="--dark"
+								color="--greyD2"
 								sm-color="--dark"
 							>
 								It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
@@ -1685,7 +1828,7 @@ export default (() => {
 									as="p"
 									font="--base"
 									margin="12px 0"
-									color="--dark"
+									color="--greyD2"
 									sm-color="--dark"
 								>
 									It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
@@ -1720,7 +1863,7 @@ export default (() => {
 									as="p"
 									font="--base"
 									margin="12px 0"
-									color="--dark"
+									color="--greyD2"
 									sm-color="--dark"
 								>
 									It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
